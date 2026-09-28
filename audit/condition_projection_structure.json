@@ -1,0 +1,26 @@
+{
+  "module": "patch_embedding",
+  "source": "/Huang_group/zyyz/Projects/UltraFlash/inference/sr/stream_forward.py",
+  "source_concat": "torch.cat([u,v],dim=0) for u,v in zip(x_list,y_list)",
+  "weight_shape": [
+    1536,
+    32,
+    1,
+    2,
+    2
+  ],
+  "latent_channel_range": [
+    0,
+    16
+  ],
+  "condition_channel_range": [
+    16,
+    32
+  ],
+  "range_convention": "half-open",
+  "bias_handling": "frozen shared bias",
+  "trainable_parameter_count": 98304,
+  "initial_weight_equal": true,
+  "parameterization": "frozen latent buffer + FP32 condition Parameter cast to BF16; single unchanged Conv3d",
+  "sr_checkpoint": "/Huang_group/zyyz/Projects/UltraFlash/inference/checkpoints/2K-Causal-Sparse-SR-Dit-fidelity-step_12800.pth"
+}

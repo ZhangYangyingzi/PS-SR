@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "step0": {
+    "step": "0",
+    "psnr": "25.691580385704373",
+    "ssim": "0.6013244049806279",
+    "lpips": "0.25471674446381776",
+    "dists": "0.19654303438523235",
+    "latent_mse": "0.06748526853819688",
+    "latent_mae": "0.1983770802617073"
+  },
+  "previous_step8000_baseline": {
+    "step": "0",
+    "psnr": "25.691580385704373",
+    "ssim": "0.6013244049806279",
+    "lpips": "0.25471674446381776",
+    "dists": "0.19654303438523235",
+    "latent_mse": "0.06748526853819688",
+    "latent_mae": "0.19837708584964275"
+  },
+  "metric_differences": {
+    "psnr": 0.0,
+    "ssim": 0.0,
+    "lpips": 0.0,
+    "dists": 0.0
+  },
+  "macro": "per-video four clips mean, then six videos mean",
+  "dataset_counts": {
+    "train": {
+      "videos": 24,
+      "clips": 96,
+      "only_manifest_read": true
+    },
+    "val": {
+      "videos": 6,
+      "clips": 24,
+      "only_manifest_read": true
+    },
+    "test": {
+      "videos": 6,
+      "clips": 24,
+      "only_manifest_read": true
+    }
+  },
+  "test_evaluated": false
+}

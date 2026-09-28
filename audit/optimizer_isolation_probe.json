@@ -1,0 +1,9 @@
+{
+  "isolated_cpu_copy_only": true,
+  "actual_training_checkpoint_modified": false,
+  "latent_max_abs_diff": 0.0,
+  "bias_max_abs_diff": 0.0,
+  "condition_max_abs_diff": 9.999889880418777e-05,
+  "condition_effective_bf16_max_abs_diff": 0.0001220703125,
+  "passed": true
+}

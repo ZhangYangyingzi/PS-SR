@@ -1,0 +1,6 @@
+{
+  "pid": 3630516,
+  "started_utc": "2026-09-27T09:14:03.567476+00:00",
+  "log": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_adaptation_v1/logs/pipeline.log",
+  "resume_command": "bash /Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_adaptation_v1/run.sh"
+}
