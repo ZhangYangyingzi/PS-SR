@@ -1,11 +1,4 @@
 {
-  "completed": false,
-  "running_stage": "evaluate.py",
-  "arguments": [
-    "score",
-    "--split",
-    "val",
-    "--step",
-    "1000"
-  ]
+  "completed": true,
+  "best_step": 1000
 }
