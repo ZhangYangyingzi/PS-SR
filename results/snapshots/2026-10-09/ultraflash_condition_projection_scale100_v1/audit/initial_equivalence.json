@@ -1,0 +1,22 @@
+{
+  "clips": [
+    {
+      "clip_id": "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb_clip_0",
+      "max_abs_diff": 0.0
+    },
+    {
+      "clip_id": "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb_clip_1",
+      "max_abs_diff": 0.0
+    },
+    {
+      "clip_id": "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb_clip_2",
+      "max_abs_diff": 0.0
+    },
+    {
+      "clip_id": "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb_clip_3",
+      "max_abs_diff": 0.0
+    }
+  ],
+  "max_abs_diff": 0.0,
+  "passed": true
+}

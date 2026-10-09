@@ -1,0 +1,16 @@
+{
+  "checkpoint_path": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/runs/main/step_001500.pt",
+  "checkpoint_size_bytes": 1196144,
+  "checkpoint_sha256": "925947d06fd24ad5d0910e7eb4c6851d9627cf83d3ad33c4b66fdac30363c881",
+  "step": 1500,
+  "condition_weight_present": true,
+  "condition_weight_shape": [
+    1536,
+    16,
+    1,
+    2,
+    2
+  ],
+  "condition_weight_finite": true,
+  "restorable_shape": true
+}

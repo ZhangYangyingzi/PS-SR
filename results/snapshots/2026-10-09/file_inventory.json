@@ -1,0 +1,797 @@
+{
+  "snapshot_date": "2026-10-09",
+  "experiments": [
+    "ultraflash_condition_projection_scale100_v1",
+    "ultraflash_state_aware_adapter_6depth_v1",
+    "ultraflash_state_aware_adapter_blind_final_v1"
+  ],
+  "file_count": 157,
+  "total_size_bytes": 1287492,
+  "files": [
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/condition_projection_structure.json",
+      "size_bytes": 741,
+      "sha256": "b4d68517e69946a4e6721b0ed4c129e52d0f77a4710ed99ee881df5c47a4b79a"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/configuration.json",
+      "size_bytes": 931,
+      "sha256": "681f73ca7110446d4a7cbe3c9135738a068321f390a8b500452dda23ab166d97"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/final_test_checkpoint.json",
+      "size_bytes": 444,
+      "sha256": "7b343022a17edc12cb1f4801fd34ba2096f479e94a29e867d10009e5d0d57ce5"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/final_test_integrity.json",
+      "size_bytes": 1156,
+      "sha256": "7c082b806c561b60e174a398cebc730f0a0072f19a3211dcf73e022170d1ce51"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/final_test_split.json",
+      "size_bytes": 2262,
+      "sha256": "04b03a6810e99f7eed5fb6051e5bb1ccea2454e3c5444bd49f69427796daf3b0"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/first_training_step.json",
+      "size_bytes": 324,
+      "sha256": "51123dea06a64099ef74eb6e1f96b6f413b5afff8eb523c9a2f40578d4459dba"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/gradient_audit_samples.json",
+      "size_bytes": 666,
+      "sha256": "39ff9e045100f8ddb50d49d1b9262bfaedec6a5b5b0a2fd81a086d286a7144be"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/gradient_balance_initial.json",
+      "size_bytes": 1928,
+      "sha256": "174135b00283462be8f8e4580b48b46e6b1100bb46b73f09861ac49c4775a32c"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/gradient_cosine_initial.csv",
+      "size_bytes": 782,
+      "sha256": "518a603d8c36e076cf70ac9f386aa1cd36b5115f51f6dc99836206f84a326d97"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/initial_equivalence.json",
+      "size_bytes": 509,
+      "sha256": "2dc7aa7f0a9fedf0b710f4e49685ebecf7a83068adb094146918ffafed45c338"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/integrity.json",
+      "size_bytes": 1104,
+      "sha256": "a871456c10ae205772846715cb54c1cf7e169dea62256e77039bb4ba7c6d80c4"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/integrity_before.json",
+      "size_bytes": 337,
+      "sha256": "70b5f64effebce05a7abb53a9681e91dbfad207e74299c2fb2f76b98d8e3946a"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/integrity_step0500.json",
+      "size_bytes": 1105,
+      "sha256": "84f7450949284e49c9b5b842fe7fd2789602fa1abbeb019b45b04ba6d6605d2d"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/integrity_step1000.json",
+      "size_bytes": 1102,
+      "sha256": "5ca69b8df92d4fd56a2ee35d2e2d1fdb2ee7ef6e2232510382f5ad7993e72f78"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/integrity_step1500.json",
+      "size_bytes": 1104,
+      "sha256": "cc1ef55a130f0c016fb72a03992f3e110748323caf72160dde022bc03c2899bc"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/audit/integrity_step2000.json",
+      "size_bytes": 1104,
+      "sha256": "a871456c10ae205772846715cb54c1cf7e169dea62256e77039bb4ba7c6d80c4"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/final_comparison.json",
+      "size_bytes": 1472,
+      "sha256": "7868b4d8666116fe342c841b9c97477705053f46bf313e6802c8c0f20a15f339"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/final_raw_summary.json",
+      "size_bytes": 7498,
+      "sha256": "1983bb293829d7a9ca6dd326b46bb867b49243535d9d582dd7855c2ebf1d48a2"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/final_selection_before_test.json",
+      "size_bytes": 321,
+      "sha256": "1537fdc1e4171404f92fff3c94131c40d543bbacf817b103fd6e69cdb02152ad"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/test_macro.json",
+      "size_bytes": 201,
+      "sha256": "3092a30ec6149a457da92f6dd5140cf991d0d2d18250b31ad1ce1528c4f3d960"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/test_per_clip.csv",
+      "size_bytes": 5658,
+      "sha256": "1d6ae4ec18787b2e4bfb85b48f946457cb8edbc6cdbabdcbfc51b3ab001b33d3"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/test_per_video.csv",
+      "size_bytes": 1040,
+      "sha256": "1975f7870095b2b64807f37f0c52a636065e0ee1c90097a8bc78c4c4ad2c5966"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/train100_vs_train24_clip_counts.json",
+      "size_bytes": 97,
+      "sha256": "ce5bb5873bb53937ef647f18aa7ab27540dc475572e6234cdeda244e8478b7f2"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/train100_vs_train24_counts.json",
+      "size_bytes": 93,
+      "sha256": "9d11b1a75882f6bfedf772bd14bd8a075231552f684b3147b87f5bafb36408a6"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/train100_vs_train24_per_clip.csv",
+      "size_bytes": 7208,
+      "sha256": "6289fc837307131da5eb61e2ecb662b24d20074ab14428debc96c7be06149bec"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/train100_vs_train24_per_video.csv",
+      "size_bytes": 1889,
+      "sha256": "55ce944eb9c0aac00d8173f353d11394a56b1ae9bd70375ba44937d980988059"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_history.csv",
+      "size_bytes": 661,
+      "sha256": "dc4bf13fd8cf707904640459b9355034a85088aca91fdc597ebed0a48ae5beab"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step0000.csv",
+      "size_bytes": 5647,
+      "sha256": "573305500c86b97422dd0b945b3cd37b1c86ca1ac4b07f7d46bd8ad9a2737e91"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step0500.csv",
+      "size_bytes": 5661,
+      "sha256": "8e040167b7c3d6c027b5b44dff255483b0131611f14056a076c3e97fa75b2d90"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step1000.csv",
+      "size_bytes": 5652,
+      "sha256": "879ab7a3115f0838cb162d24b6bc7e97191bab16cc77946477dffcb8056d7b69"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step1500.csv",
+      "size_bytes": 5646,
+      "sha256": "706703c76b72de8a1393a1a16760369637520ebfff7e14ec602dc0eea85cc8ff"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step2000.csv",
+      "size_bytes": 5665,
+      "sha256": "7c978a1ffd384a68870909c79e6eb3f2f6057ae7201e4610225c24150a859cfb"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_video_step0000.csv",
+      "size_bytes": 1035,
+      "sha256": "9bea9a78655a0f101a771f6cd654e34079349b591dae6a40f49d218e689a8ef3"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_video_step0500.csv",
+      "size_bytes": 1035,
+      "sha256": "3ec9166520fe2ca8441037cac10b122d6e68782f0ce4c6a8334d204acc7fc72d"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_video_step1000.csv",
+      "size_bytes": 1039,
+      "sha256": "52dec9c2288dcf9d22dc1f032605147cd47216c97d7a2fc2f221ce7037659a8d"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_video_step1500.csv",
+      "size_bytes": 1034,
+      "sha256": "8e5f2c6bd72a4f74638537252c4039b2ec369fbc4a8a1eff21a6a5c28d9c84f1"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/metrics/val_per_video_step2000.csv",
+      "size_bytes": 1034,
+      "sha256": "fdaeff8332ce5b0edaf7379cfecc037d888a9106e0e8a1b56707d3c1f707012b"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/run.sh",
+      "size_bytes": 479,
+      "sha256": "d1fa8ace0c46597966ee8988c3b0f605e81119d63254a291e9e0db7d70303719"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/audit.py",
+      "size_bytes": 5053,
+      "sha256": "5581131e3ba39c7f16de560193a41231e330ef6bf73917626087ee2e645da8fc"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/build_data.py",
+      "size_bytes": 3021,
+      "sha256": "d16a1c7cec5c737de39d04eadb9cb84cde3540cdf3f336d27eb96b61a99b58f3"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/cache_new.py",
+      "size_bytes": 1712,
+      "sha256": "9a04e530159e9aa34dac42b9728d629fd8bfbc443c473fbcad35487b8d5c9518"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/check_baseline.py",
+      "size_bytes": 1228,
+      "sha256": "44f1fc47f3225bb70cb2ae624f90d6c869f4ccc9e47f1b10081751716c2bfbd5"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/common.py",
+      "size_bytes": 5737,
+      "sha256": "d892331e48981c059a7695b4d71e9a26a965434e4d4f47b88130f0323474f81f"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/eval_step0.sh",
+      "size_bytes": 545,
+      "sha256": "59af32cd0ef6dee6ee18cc9f5469ece4dba6fa648594d797981927ea18241f10"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/evaluate.py",
+      "size_bytes": 2221,
+      "sha256": "a24669bc6e140c1b579eb1207bd3f2b8d5ecc63730e40a381a71f126ff218392"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/final_test.py",
+      "size_bytes": 15032,
+      "sha256": "46862e1bdcc2843312dca2a8736131d484099ef9300325caabf9946a33702dfc"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/finalize.py",
+      "size_bytes": 2746,
+      "sha256": "ef2165d2bf8f14168a256da2c7f331d80ded786efc682a1618f0544482680a68"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/launch.py",
+      "size_bytes": 736,
+      "sha256": "1099b8c36c18b88b4901c51c665f8037d9c896a99fd96e0c5561e54d29eac097"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/parallel_gradient_audit.py",
+      "size_bytes": 1451,
+      "sha256": "378e130a36b291569e107b12462fa4813a6f4af2636f8259b2b4057d691961e6"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/prepare_fullframe.py",
+      "size_bytes": 826,
+      "sha256": "08c4fa158cf4091c705cb57d399d0cdea3b1d956048474630f5d2c9c940cd2ac"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/probe_optimizer.py",
+      "size_bytes": 1763,
+      "sha256": "75e0c19e35d69386ea2668c1ce6c54c7dfe3517d8fc8aaf1cc2b96384f30d8bf"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/run_all.py",
+      "size_bytes": 1928,
+      "sha256": "d1ce9e975e090d294868c9ef3bd9368f197ac0f0b2a286d6222809722247a6f0"
+    },
+    {
+      "path": "ultraflash_condition_projection_scale100_v1/scripts/train.py",
+      "size_bytes": 4272,
+      "sha256": "5f7de99744e918ed1816b0b01441720c1e29eb0d812c0694b7b50062d2fcea61"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/adapter_shapes.json",
+      "size_bytes": 11065,
+      "sha256": "f135e07930512e70019544f592ba8694ac17d637d7d0938021f37ba81da7d305"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/final_integrity.json",
+      "size_bytes": 926,
+      "sha256": "0040dfd2288715a4315a4d73eaa972fd33647b388b950fb74daef3ea90fa3881"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/final_integrity_step3000.json",
+      "size_bytes": 1029,
+      "sha256": "86c596da4bd648d001963ae2dcb4d5b9af7be72974c65950652bd98135d807a9"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/final_test_checkpoint.json",
+      "size_bytes": 654,
+      "sha256": "87a394fce81243047d9e2f7e3ce653311e616c3c35baed3e2b63fc41ec8b4c7e"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/final_test_integrity.json",
+      "size_bytes": 18036,
+      "sha256": "34a00bc33fe9c955945fbc6619c8e9c78196a483a46be2196e8c50e65fb0356c"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/final_test_split.json",
+      "size_bytes": 2385,
+      "sha256": "d7a3986689e8e75ed1f2970c562330a2cfd7f24d37a71f01230db8710baf819c"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/gradient_audit.json",
+      "size_bytes": 710,
+      "sha256": "b009cf5155a9afeccc5daae4a9a0b98760a4b9eaad5f65a01d8834ded8c19667"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/gradient_monitor_1000_3000.json",
+      "size_bytes": 1677,
+      "sha256": "a991eccea256dcfafdb398318290367054f3f52a64898447c3b546e58e7e62c3"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/integrity_step0250.json",
+      "size_bytes": 941,
+      "sha256": "35622710275e980f467eba499425681b7ca260abdc5d44bb45533d71a556c114"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/integrity_step0500.json",
+      "size_bytes": 941,
+      "sha256": "09dbdc465e24b1e266371edec0bc1aef4d15edcb5755b29e5ae9c081a8757cdb"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/integrity_step0750.json",
+      "size_bytes": 941,
+      "sha256": "730244859dd664e1dfa1cc9e831fcc528e9a5f0d18f1b663e84a45442a9a1e11"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/integrity_step1000.json",
+      "size_bytes": 942,
+      "sha256": "2df4121c3091394245ec21b7d844a294fc44af1dd047ea43b39b882b456a35e1"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/optimizer_smoke.json",
+      "size_bytes": 398,
+      "sha256": "2cc0c5dd7c37cb4796a9d613ed41b6294b3113552547e9cfd64d31856d9d4e70"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/parameter_audit.json",
+      "size_bytes": 370,
+      "sha256": "39ac706f65760e146a01e88ef4ba5bb14b6260edd0d0b870a9044e8631753744"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/pre_resume_integrity.json",
+      "size_bytes": 650,
+      "sha256": "1d8a0ceeb7e62ad99c9d7d9922c13bc1a701183751f0fb005cd2132489e40541"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/pretrain_pass.json",
+      "size_bytes": 191,
+      "sha256": "9132352289f420ccf92e5aaf91b3234a320475ecfd4942ec5ca89676fe0b520d"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/reference_values.json",
+      "size_bytes": 545,
+      "sha256": "da41b5d11e87e8be2cc7c902d3fc78bd5a826332ba19391b2200d78b2824b832"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/requires_grad.json",
+      "size_bytes": 401,
+      "sha256": "12fbc7629734b3792f1c698479c117e74b48693ef5d549ce6682efe6a4d8966f"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/resume_equivalence.json",
+      "size_bytes": 741,
+      "sha256": "1998c5221cdba95e29a57f123e2f488856d9ef10523e2bde5c3c1e0b0a9c311b"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/resume_split_audit.json",
+      "size_bytes": 598,
+      "sha256": "a1419d463ff25eb59db07c2857a8e447d686b8a7424d343dedefe56366d87cca"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/resume_step1000_audit.json",
+      "size_bytes": 515,
+      "sha256": "c8b3ef1e51ecea90fac7d5e31ba40a3ad74c76f995f536b0550ef445b4f0cae8"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/resumed_optimizer.json",
+      "size_bytes": 410,
+      "sha256": "97410efbd7469481c60d6b2d2f4c979ffe773146c3ae954c27ff0e7438334466"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/split_audit.json",
+      "size_bytes": 27310,
+      "sha256": "711dd9e578fb69382dc1c454fb528150089bae4f22a86ca135f7399f132f2530"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/audit/zero_init_equivalence.json",
+      "size_bytes": 373,
+      "sha256": "0ef4b33b621c7296f9b51e1a8d75cb0acb732ec2c5f21458c9196c87da236d03"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/configs/config.json",
+      "size_bytes": 1695,
+      "sha256": "c19cefeecc819c5c1a0bcf89dfff1664646751db9d7eee477eddf57c23ae3cc1"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/continuation_1000_3000/audit/resume_runtime.json",
+      "size_bytes": 255,
+      "sha256": "47af3e4b3745991d839cacfe7b1c2304ceb75188b63156b85429e9e1c7b98f99"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/adapter_vs_step0_clip_counts.json",
+      "size_bytes": 155,
+      "sha256": "a94c339c97441a4e66ab7b965d88d78944b5542ba5cfbc50ead7dded793adae1"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/adapter_vs_step0_per_clip.csv",
+      "size_bytes": 10214,
+      "sha256": "275511ab1d28515939a3a00de34eb7bbdd0ee911d351dfe8e33214fde036dc99"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/adapter_vs_step0_per_video.csv",
+      "size_bytes": 2720,
+      "sha256": "63c12a7b02d189e5442ec0bd6a2f9e0b7cd68221b7c7b9c9b9d93ddcafe6cab4"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/adapter_vs_step0_video_counts.json",
+      "size_bytes": 149,
+      "sha256": "a761b277b5ac2ae11a728b71003bc51b570ca45d7a971603ceb7e02c64d96a39"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/final_comparison.json",
+      "size_bytes": 2554,
+      "sha256": "491cbf44dea38424f86f74278179712dbd4d5b6177a1b82767c2915eb6e88e8b"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/final_raw_summary.json",
+      "size_bytes": 25256,
+      "sha256": "30a168e3befd82946c5ea2b8f68be02fb909f8599ac8ac1b9d9965a4694505a4"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/final_selection_before_test.json",
+      "size_bytes": 497,
+      "sha256": "478fb6a419b4c1726ebcd074cbe2018cf69c13b3b8b7e06d4a0a209211dc5e0b"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/test_macro.json",
+      "size_bytes": 200,
+      "sha256": "6ca6d41697c52ac99ac0f2b6dfba1726deaa85fe84ce171185a28c68b67db59b"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/test_per_clip.csv",
+      "size_bytes": 5654,
+      "sha256": "313baf5252b2d0ea63a0c4a89a411bb5984df156159ecaf0e07b3eb2c6d81392"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/test_per_video.csv",
+      "size_bytes": 1044,
+      "sha256": "8043d6c07104881206e1895ef0098d2458323f18c62a53acd9e93a01dd828f3e"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/train_history.csv",
+      "size_bytes": 156913,
+      "sha256": "6af4bece7bd63885a5a178c7039dc94d9faea16d84c67d98e22d2f02af69abcf"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/train_history_1000_3000.csv",
+      "size_bytes": 318054,
+      "sha256": "a15067ed2cc9c679c3cd6f0c2e600400e3fb83890d85393380893f27fd1fbb0b"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_history.csv",
+      "size_bytes": 1148,
+      "sha256": "ff6bd26692b7e78706cd363266945a297f062a24cf38d10a1dbdf7f454345f0d"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0000_macro.json",
+      "size_bytes": 200,
+      "sha256": "23f4d585cdfb40d06f8399b4c68bbce057d0398db542e9e605843623d4f780e7"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0000_per_clip.csv",
+      "size_bytes": 5646,
+      "sha256": "706703c76b72de8a1393a1a16760369637520ebfff7e14ec602dc0eea85cc8ff"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0000_per_video.csv",
+      "size_bytes": 1034,
+      "sha256": "8e5f2c6bd72a4f74638537252c4039b2ec369fbc4a8a1eff21a6a5c28d9c84f1"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0250_macro.json",
+      "size_bytes": 198,
+      "sha256": "ba6bb5909cdd6ef384abc319ddb65be7c3e574779de3cca485b44e5dcc9333ec"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0250_per_clip.csv",
+      "size_bytes": 5658,
+      "sha256": "c9a9d6678a76a4e7ee1a3eecd28e8ed1abaf5216a2a19f59a392b5f49756ddb9"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0250_per_video.csv",
+      "size_bytes": 1041,
+      "sha256": "79c83a8297232c592e6f40f66dd63a459de27652672659e4586a0fb30d9462e5"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0500_macro.json",
+      "size_bytes": 199,
+      "sha256": "06375daf06757e1669c3067dcd15c1870060281e2aecc0e58d9e0b641c075ff7"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0500_per_clip.csv",
+      "size_bytes": 5654,
+      "sha256": "2c84842852e60964832c3d47adf9afabebcee1df6330c331a980677799f5fcb0"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0500_per_video.csv",
+      "size_bytes": 1034,
+      "sha256": "292d5e73524edf87d582b280b8889784f49a4d224fd4eebf2fc5b9411fabb72c"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0750_macro.json",
+      "size_bytes": 200,
+      "sha256": "2defbde3e074ca19d555117c17aea65336e1ede6178746b79181f30f548e3404"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0750_per_clip.csv",
+      "size_bytes": 5658,
+      "sha256": "b1c4bd255fcd79b275e0307d300d0e6b8043e418f0cc21f9ce0722d25f39b0a4"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0750_per_video.csv",
+      "size_bytes": 1041,
+      "sha256": "8c4f785c86a0730eb0687b5a7363b054010e4ec7428d806decf3ec2d1430b193"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step1000_macro.json",
+      "size_bytes": 201,
+      "sha256": "78f1c8e3a44c1336d116552df1cee409886175bfe037bc0f6a38e4d2e904d3db"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step1000_per_clip.csv",
+      "size_bytes": 5662,
+      "sha256": "a41dd9746c427d4aa2ba1919b316b3313adff2fec5306543704ca4ad39d1cf32"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step1000_per_video.csv",
+      "size_bytes": 1040,
+      "sha256": "4a9279c54e5645eb812e6358d45df8d4fa804258c50edbe05e4d4c0315ac9b51"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step1500_macro.json",
+      "size_bytes": 199,
+      "sha256": "b8e68febf53fe8983c2813884738ac177f67baacc1e0f422e1b1a9bbb11c1579"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step1500_per_clip.csv",
+      "size_bytes": 5656,
+      "sha256": "a73321361d10ae0b1e4911cf6fa36323388e09e572d76a3b1ac59092b94a3ce3"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step1500_per_video.csv",
+      "size_bytes": 1037,
+      "sha256": "6323dcd94e6a413cd868e747a5e79b12c3ec3049dcf9b9e11f3d4d4b57e98e46"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step2000_macro.json",
+      "size_bytes": 199,
+      "sha256": "a36d391cc25021d7b5804ee03327edc9094fa5899f51397e9b86dc12c15614aa"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step2000_per_clip.csv",
+      "size_bytes": 5660,
+      "sha256": "3bc42e03ee126d8f520cd38ab5b0101751ff55680e8df107b3aba6f3c2596436"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step2000_per_video.csv",
+      "size_bytes": 1040,
+      "sha256": "8531ee76a614b15265cece41e1467b749f35416e34f7cea6d45639fd558907e6"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step2500_macro.json",
+      "size_bytes": 199,
+      "sha256": "d3840cb63dd9b22f90440e8569a10391a105a906f6af5c05ca95d05e96b245c0"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step2500_per_clip.csv",
+      "size_bytes": 5668,
+      "sha256": "28c1f0f45fa7aede3fb9bf117b56daccb17116802cbbd0dc7579b292761fcb7c"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step2500_per_video.csv",
+      "size_bytes": 1039,
+      "sha256": "881e307b37b2a89caaf8fdace71867af071ca1bc9b72ed31975bae1b6b22392c"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step3000_macro.json",
+      "size_bytes": 202,
+      "sha256": "0ebd5550e024a132871522d92d660c83c4ad6efa76b31b1455d413e225c5b78f"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step3000_per_clip.csv",
+      "size_bytes": 5661,
+      "sha256": "6097d5671bb042675fd71a61ed9ea3516160d941bde29f89979a243c873d497c"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_step3000_per_video.csv",
+      "size_bytes": 1038,
+      "sha256": "c8aa2f4c70537c1756e09232c0ca01ea5c8040dff755a1b1cc7f96e21010db96"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/metrics/val_test_summary.json",
+      "size_bytes": 1541,
+      "sha256": "785bcae2e1a3c851f14b413697a5810a080932ac6554af073113ce17a7b2b77e"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/run_continue_1000_3000.sh",
+      "size_bytes": 1360,
+      "sha256": "a498e3cf5b24fd8287f4ee6488bddff5e2847327b73ea66aa1fd7ec36316287d"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/after_250.py",
+      "size_bytes": 1817,
+      "sha256": "a25b647b3bbf8dd362de3d91f248a5b124bd5aff845b27402d5c9f0c20730b25"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/audits.py",
+      "size_bytes": 9909,
+      "sha256": "ef8c4ab44f1b84b6b6a099056059dd763292521d6a7221878a35aadf08661816"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/common.py",
+      "size_bytes": 12867,
+      "sha256": "f42e3e021d756b6a160136202f278321c574cbfe3234b070ae1c8c920222aa8d"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/continue_1000_3000.py",
+      "size_bytes": 13870,
+      "sha256": "909017baa360fc65b915f85a7057218d74d8c1ba6b1377e833a2fee90b3503d2"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/evaluate.py",
+      "size_bytes": 3616,
+      "sha256": "4f699614a7a9b0476b28e7694528a4a9c27301d5cfaa4ca44e9537e65124da70"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/evaluate_continuation.py",
+      "size_bytes": 184,
+      "sha256": "fbc06afad31762194105c2b2598999673416c37f33a4cd61051b447d462e36da"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/final_test.py",
+      "size_bytes": 18858,
+      "sha256": "1f553b0103d82138670c250112be48a91cebd9f2ce443714db102f07c88d538f"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/finalize.py",
+      "size_bytes": 4771,
+      "sha256": "59b75c01e73bfdb5365ecfb3083299ccd84c3f0017d914aba66431b6d799e63c"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/launch_continuation.py",
+      "size_bytes": 734,
+      "sha256": "d64d018b1855c5f82a6189ab86369c7ce92115e6750d433771f6233f530aa5f9"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/launch_workflow.py",
+      "size_bytes": 591,
+      "sha256": "f4a40351652d9e5dc53016fc79001502456af54b2d84013ed0ee72272da52ff6"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/print_continuation.py",
+      "size_bytes": 2627,
+      "sha256": "acfca3d1ead2f38d243c1797f07bd1a01c159e1457a891089d951a51d7183611"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/run_all.py",
+      "size_bytes": 1681,
+      "sha256": "bb86c2e5be17458b0d314c4e4653308930b15e78e2e98d3c9de955139c3de654"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_6depth_v1/scripts/train.py",
+      "size_bytes": 4798,
+      "sha256": "6e680f4c3601fc5a5b08aef71b268aed0583775851184a100df403e12b6c5341"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/audit/blindness_audit.json",
+      "size_bytes": 1828,
+      "sha256": "7194690a42d0b98f44eef213bb402026265dacaffc9b3a3ac63af4f001edbf24"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/audit/cache_integrity.json",
+      "size_bytes": 339,
+      "sha256": "bc888e5603e73216dabddadcd19d9f1c3963176b7097a5d9700dfd4cba577624"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/audit/frozen_method_before_blind_test.json",
+      "size_bytes": 1091,
+      "sha256": "d537bec6411b6eb086d96cd86ff765501c5c56e80cd68d889ec4c5479af0e560"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/audit/model_integrity.json",
+      "size_bytes": 833,
+      "sha256": "6c6a38978e803108850969a11487af8172b71b2dd0a129d3a1b139f091faff2a"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/audit/pixel_pssr_status.json",
+      "size_bytes": 56,
+      "sha256": "54a4b180bd4c46056c9997b680ce309b01250d3570273b5b044c6d9ed2a2193c"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/audit/previously_used_video_inventory.json",
+      "size_bytes": 117631,
+      "sha256": "bb12af475d49a67267dfb245be3aa342e78eee7d3cd72130fb19732b3645a741"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/blind_final_by_dataset.json",
+      "size_bytes": 1085,
+      "sha256": "00738009958cfb24bffab09bd17b7449a62949af1d9903896a21fd8969d5030c"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/blind_final_comparisons.json",
+      "size_bytes": 1122,
+      "sha256": "da2d2082c60952a926044a5518c5497063986e8a4f1841d25118a630fd11b2ad"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/blind_final_macro.json",
+      "size_bytes": 1120,
+      "sha256": "94017a31d456258164301fd2165cf416393519706f9b05467edabc3b700f408b"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/blind_final_per_clip.csv",
+      "size_bytes": 111916,
+      "sha256": "29fd00ba114f82dc18fb8fd17819e7ac9dd8d8ccf728a81ec158373b050facff"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/blind_final_per_video.csv",
+      "size_bytes": 21643,
+      "sha256": "051372eb98e04cb86c2561dedb98862bf1d188571f966e8425519c113893bca5"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/final_raw_summary.json",
+      "size_bytes": 14216,
+      "sha256": "84f61a41afbc35370100fecf6070d33127e47ec9acd81710cc8c31346ab6bf9f"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/latent_per_clip.csv",
+      "size_bytes": 45854,
+      "sha256": "3aeab75fe11208dcba83f4330999fcc03a6d09940ea12adb1324437d0858ab80"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/runtime_per_clip.csv",
+      "size_bytes": 16734,
+      "sha256": "8001ac5883625fc40b6538a620a776f25e30abd52d249821bbb61e7dc5d2f240"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/runtime_summary.json",
+      "size_bytes": 606,
+      "sha256": "c4e70ea1dc3c1d70b05cc941ac06bff8f0b39d7db6ead1033ef3f7578b4b59e4"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/stateaware_vs_projection_clip_counts.json",
+      "size_bytes": 155,
+      "sha256": "3a527a28f0680bf8fab7e4c50cba127f71f1b5e8c312e9788923e6123387628b"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/stateaware_vs_projection_per_clip.csv",
+      "size_bytes": 40208,
+      "sha256": "1abd7ea909c89dead457b1dd2ed66b5947a4a7b4022ab281fcd4ee1d40ae87c5"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/stateaware_vs_projection_per_video.csv",
+      "size_bytes": 10111,
+      "sha256": "eff795d0a32948dd600b3f0d6aa9605eea110ef13d0c89f415f5b472e5ecf831"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/metrics/stateaware_vs_projection_video_counts.json",
+      "size_bytes": 155,
+      "sha256": "df1b9fe6c733f2f2702049f2dbe675ad69a1298066aee9314eb11edd0d067aec"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/run_blind_final.sh",
+      "size_bytes": 1260,
+      "sha256": "7c1b060a2be2c935fe4e38926c84c026ec6318c2731d8485b0a3b56f5b21b127"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/scripts/evaluate_blind.py",
+      "size_bytes": 13049,
+      "sha256": "11ffd4b184915e7986159cbfde381685364a281ce2b9f7e99d31dda4fc72f7ac"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/scripts/finalize.py",
+      "size_bytes": 11145,
+      "sha256": "8fe6ccbb41faed03b2c0fd64262d1b94d9bd90c1295f237e409dfd5c7d7e3970"
+    },
+    {
+      "path": "ultraflash_state_aware_adapter_blind_final_v1/scripts/prepare.py",
+      "size_bytes": 10855,
+      "sha256": "2f028fb0f6af1b4712eb562a260bb77be08cdcac33a7a97e79fb7476009a9bf3"
+    }
+  ]
+}

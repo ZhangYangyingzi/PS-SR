@@ -1,0 +1,17 @@
+{
+  "total_sr_dit_params": 1418995264,
+  "frozen_backbone_params": 1418896960,
+  "condition_projection_trainable_params": 98304,
+  "adapter_total_params": 15540096,
+  "adapter_trainable_params": 15540096,
+  "total_trainable_params": 15638400,
+  "trainable_ratio_vs_sr_dit": 0.011020755598519038,
+  "adapter_indices": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "train100_condition_projection_val_step1500": {
+    "psnr": 26.554084,
+    "ssim": 0.624022,
+    "lpips": 0.211276,
+    "dists": 0.184572,
+    "latent_mse": 0.055172,
+    "latent_mae": 0.177618
+  },
+  "train100_condition_projection_val_step2000": {
+    "psnr": 26.563580,
+    "ssim": 0.623268,
+    "lpips": 0.212641,
+    "dists": 0.181590,
+    "latent_mse": 0.054494,
+    "latent_mae": 0.176254
+  },
+  "train24_condition_projection_best_val": {
+    "psnr": 26.270274,
+    "ssim": 0.607439,
+    "lpips": 0.210488,
+    "dists": 0.183949
+  }
+}

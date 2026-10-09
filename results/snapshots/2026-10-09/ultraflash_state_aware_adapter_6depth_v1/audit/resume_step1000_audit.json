@@ -1,0 +1,14 @@
+{
+  "checkpoint_path": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/runs/step_1000.pt",
+  "checkpoint_size": 187783354,
+  "checkpoint_sha256": "a6f6d3f009e7c72deed563d95b9aa603ec90d667045a7dcb69ab1758dddd2c2a",
+  "global_step": 1000,
+  "has_model_state": true,
+  "has_condition_projection": true,
+  "has_adapter_state": true,
+  "has_optimizer_state": true,
+  "has_scaler_state": false,
+  "has_scheduler_state": false,
+  "has_rng_state": true,
+  "optimizer_state_parameter_count": 93
+}

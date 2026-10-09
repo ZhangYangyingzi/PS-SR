@@ -1,0 +1,22 @@
+{
+  "method_name": "ultraflash_state_aware_adapter_6depth_v1",
+  "selected_step": 1000,
+  "selection_metric": "val_macro_lpips",
+  "adapter_indices": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+  ],
+  "checkpoint_path": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/runs/step_1000.pt",
+  "checkpoint_size_bytes": 187783354,
+  "checkpoint_sha256": "a6f6d3f009e7c72deed563d95b9aa603ec90d667045a7dcb69ab1758dddd2c2a",
+  "upsampler_checkpoint_path": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0_continue_8000/best.pt",
+  "upsampler_sha256": "1f28711b762de6ae6a431084d4aed47e126ccce2329796fff8546a07fd611055",
+  "sr_checkpoint_path": "/Huang_group/zyyz/Projects/UltraFlash/inference/checkpoints/2K-Causal-Sparse-SR-Dit-fidelity-step_12800.pth",
+  "sr_sha256": "79d64a1c16f38b98b3159775b6574dc19e47975cd8f9977f1f6e82c654995f21",
+  "wan_checkpoint_path": "/Huang_group/zyyz/Projects/PS-SR/dependent_models/Wan2.1-T2V-1.3B/Wan2.1_VAE.pth",
+  "wan_sha256": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981"
+}

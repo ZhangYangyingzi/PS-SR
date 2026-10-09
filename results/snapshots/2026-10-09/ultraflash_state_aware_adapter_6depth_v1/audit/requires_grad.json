@@ -1,0 +1,14 @@
+{
+  "upsampler_frozen": true,
+  "latent_projection_frozen": true,
+  "condition_projection_trainable": true,
+  "base_self_attention_frozen": true,
+  "base_cross_attention_frozen": true,
+  "base_ffn_frozen": true,
+  "base_norm_frozen": true,
+  "base_modulation_frozen": true,
+  "base_head_frozen": true,
+  "wan_frozen": true,
+  "adapter_trainable": true,
+  "only_allowed_sr_parameter_trainable": true
+}

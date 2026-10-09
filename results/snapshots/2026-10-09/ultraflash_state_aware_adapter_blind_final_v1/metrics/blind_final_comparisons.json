@@ -1,0 +1,34 @@
+{
+  "stateaware_minus_train100_projection": {
+    "delta_psnr": 0.3322939317127265,
+    "delta_ssim": 0.007708141597331908,
+    "delta_lpips": -0.016981241402818842,
+    "delta_dists": -0.01722742124077148,
+    "delta_latent_mse": -0.011038062899994351,
+    "delta_latent_mae": -0.018822418215374143
+  },
+  "stateaware_minus_step8000_baseline": {
+    "delta_psnr": 1.5569358762869605,
+    "delta_ssim": 0.0383318929561578,
+    "delta_lpips": -0.052048705529658956,
+    "delta_dists": -0.019912214913204607,
+    "delta_latent_mse": -0.030341887458538018,
+    "delta_latent_mae": -0.048117040966947855
+  },
+  "stateaware_minus_pixel_pssr": {
+    "delta_psnr": 0.8088119947995054,
+    "delta_ssim": -0.05996970721564909,
+    "delta_lpips": -0.07133205949931454,
+    "delta_dists": -0.012249533817464214,
+    "delta_latent_mse": null,
+    "delta_latent_mae": null
+  },
+  "stateaware_minus_bicubic": {
+    "delta_psnr": -5.70784521058172,
+    "delta_ssim": -0.20563808107047166,
+    "delta_lpips": -0.08733826767431802,
+    "delta_dists": -0.013457279287132556,
+    "delta_latent_mse": null,
+    "delta_latent_mae": null
+  }
+}

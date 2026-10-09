@@ -1,0 +1,17 @@
+{
+  "clip_id": "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f_clip_0",
+  "measurement": "real clip backward after isolated one-step connector smoke update",
+  "initial_zero_connector_backward": {
+    "condition_projection_grad_norm": 0.07237154055062305,
+    "state_aware_embedding_grad_norm": 0.0,
+    "control_blocks_grad_norm": 0.0,
+    "zero_connectors_grad_norm": 0.15814215830511028
+  },
+  "condition_projection_grad_norm": 0.05141372612169446,
+  "state_aware_embedding_grad_norm": 0.0008448819696710866,
+  "control_blocks_grad_norm": 0.0015829270937705185,
+  "zero_connectors_grad_norm": 0.14924129536084552,
+  "frozen_backbone_grad_none": true,
+  "upsampler_grad_none": true,
+  "wan_grad_none": true
+}

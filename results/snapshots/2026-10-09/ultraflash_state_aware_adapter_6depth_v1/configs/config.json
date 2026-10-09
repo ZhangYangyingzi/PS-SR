@@ -1,0 +1,69 @@
+{
+  "name": "ultraflash_state_aware_adapter_6depth_v1",
+  "source_train100_manifest": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/train100_clips.csv",
+  "source_condition_checkpoint": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/runs/main/step_001500.pt",
+  "upsampler_checkpoint": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0_continue_8000/best.pt",
+  "sr_checkpoint": "/Huang_group/zyyz/Projects/UltraFlash/inference/checkpoints/2K-Causal-Sparse-SR-Dit-fidelity-step_12800.pth",
+  "wan_checkpoint": "/Huang_group/zyyz/Projects/PS-SR/dependent_models/Wan2.1-T2V-1.3B/Wan2.1_VAE.pth",
+  "seed": 2026,
+  "steps": [
+    0,
+    250,
+    500,
+    750,
+    1000
+  ],
+  "batch_size": 1,
+  "adapter_indices": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+  ],
+  "adapter_dim": 384,
+  "adapter_heads": 6,
+  "state_aware_fusion": "static base_proj + zero_out(cross_attention(query=static, context=[dynamic,static]))",
+  "dynamic_source": "current SR DiT block output h",
+  "time_conditioning": null,
+  "loss_weights": {
+    "latent": 0.5,
+    "temporal": 0.1,
+    "rgb": 0.2,
+    "lpips": 0.15,
+    "hf": 1.0
+  },
+  "lpips_frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "optimizer": {
+    "name": "AdamW",
+    "betas": [
+      0.9,
+      0.99
+    ],
+    "weight_decay": 0.0001,
+    "condition_lr": 0.0001,
+    "adapter_lr": 5e-05,
+    "grad_clip": 1.0,
+    "scheduler": null
+  },
+  "precision": "frozen BF16 base; FP32 adapter and condition projection parameters with BF16 autocast forward"
+}

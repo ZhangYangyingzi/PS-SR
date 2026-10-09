@@ -1,0 +1,2469 @@
+{
+  "inventory": [
+    {
+      "experiment": "latent_sr_v2_multivideo",
+      "split": "train",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/latent_sr_v2_multivideo/manifests/clips.csv",
+      "video_ids": [
+        "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+        "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+        "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+        "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+        "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+        "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+        "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+        "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+        "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+        "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+        "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+        "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+        "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+        "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+        "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+        "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+        "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+        "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+      ],
+      "video_count": 24
+    },
+    {
+      "experiment": "latent_sr_v2_multivideo",
+      "split": "val",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/latent_sr_v2_multivideo/manifests/clips.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "latent_sr_v2_multivideo",
+      "split": "test",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/latent_sr_v2_multivideo/manifests/clips.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "latent_sr_v2_multivideo",
+      "split": "train",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/latent_sr_v2_multivideo/manifests/video_split.json",
+      "video_ids": [
+        "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+        "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+        "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+        "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+        "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+        "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+        "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+        "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+        "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+        "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+        "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+        "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+        "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+        "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+        "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+        "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+        "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+        "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+      ],
+      "video_count": 24
+    },
+    {
+      "experiment": "latent_sr_v2_multivideo",
+      "split": "val",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/latent_sr_v2_multivideo/manifests/video_split.json",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "latent_sr_v2_multivideo",
+      "split": "test",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/latent_sr_v2_multivideo/manifests/video_split.json",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_adaptation_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_adaptation_v1/metrics/test_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_adaptation_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_adaptation_v1/metrics/val_per_clip_step0000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_adaptation_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_adaptation_v1/metrics/val_per_clip_step0250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_adaptation_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_adaptation_v1/metrics/val_per_clip_step0500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_adaptation_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_adaptation_v1/metrics/val_per_clip_step0750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_adaptation_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_adaptation_v1/metrics/val_per_clip_step1000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/audit/final_test_split.json",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/split_audit.json",
+      "video_ids": [
+        "00fe7c5e-130c-42eb-8e1c-7576e6a647b8_856d344f",
+        "0202b12c-6588-4daa-bf68-1cabdeafe7ec_0074a506",
+        "04ad6810-0997-4fa6-b81f-315d7a13fa8d_fc1dfe99",
+        "07605b5b-8833-4d1a-90a9-df157289ee2b_bfe8844d",
+        "07b29419-dc37-4557-b1aa-ffb6148fdf7a_56c09236",
+        "07f79287-6fb6-4968-bb96-82f75c335df0_76dede1b",
+        "08ab7980-f017-430f-9fb9-6beafcbe0b15_714280ab",
+        "119e4822-8504-4d45-97f3-4ac34e2397cb_c97152d0",
+        "121f73b9-1ffb-4add-ae0e-7872a2f86ce9_6b7fe1e3",
+        "14b731b6-d4d6-48e9-be9a-2c2902f59829_0101e553",
+        "1a324b7e-7330-4c24-8070-86a14ae31faf_230f5988",
+        "1bffaa9e-4f50-4022-a955-26254a71be39_6767101d",
+        "207d4c94-4ce6-4400-b837-e910b715f683_f247cbf3",
+        "23926909-263a-481d-b3b3-609b198d7529_06a54bca",
+        "252753e7-1456-494c-a79d-32a01f3276bd_f4744bc3",
+        "2749b033-58c7-4ec5-b6f8-f9bf0b6853f6_c34f9f42",
+        "27940403-c93b-4b80-ace7-af47ed0b5a0d_61037a95",
+        "2e627eca-e1ee-4ab8-ac94-67e3bfc87ccc_e91fa066",
+        "2f965662-62f9-4d13-908f-2470f37574ab_efbb4fdd",
+        "35bc46eb-4b1d-4a2b-a7e5-0ff3611b351c_09be9cb9",
+        "3694a20e-6f59-4f7d-9a5f-fe6d592f8b3c_4a4ad914",
+        "38f24c06-1438-4fbc-ac99-5a4b833b55cd_d88a6d45",
+        "3a018850-0565-4ec9-a95e-49ef392f88ef_46d746d8",
+        "3b6b833b-82ab-44ae-b68f-3cfc5fd1cb71_0ac724b0",
+        "41c4990f-f1cd-46f7-949d-5734a0e9469e_98b5a39b",
+        "49c9df00-0e7d-4a1d-9d66-e44fb1ec60b4_63b6a678",
+        "4c65562e-682f-49e5-8779-db4885ff9e56_91dc61fc",
+        "4e5997c0-7d3b-4992-a5b1-44cb19ec3cf7_540a7a76",
+        "4eea02b4-5f03-44d8-9ac6-2df13d500c1a_394ca462",
+        "51ddfbbf-530a-4b4c-a0ed-8bc26a6b7551_a773c4ca",
+        "56754ae4-45ba-4c50-8623-c37880c427e8_af03d161",
+        "57867c15-be9b-423a-887b-942e6241469f_92ad0fac",
+        "57af5612-7cf1-49f8-a55f-dbf2ea379b7c_95bb2500",
+        "5946ed36-3247-421d-8ce4-e259af38f359_cd4045b7",
+        "5d04337b-776c-4547-b2f8-595238351787_af1a80a3",
+        "630b19b4-f3bf-4058-94aa-d30a93fb73c6_713b5c36",
+        "63a7db03-baad-454c-bc89-7bba894f523e_5bc5a35a",
+        "64c93f34-69d0-4e79-baed-5f50724869bc_adacab67",
+        "66c4659a-ea45-4877-ab8c-8533f5fece2b_64831758",
+        "68d60c88-932d-408f-8ad9-5475dedd759a_3085a2a2",
+        "6bc7bb1e-f7f7-4ebd-a493-e4a64415bb22_9cb411fb",
+        "6e1e9453-a5c3-411f-8292-722b47a43155_d0e44541",
+        "70992fb6-6e46-4869-b501-4a23091c682b_04a06f28",
+        "74344590-4c20-4b9e-9b9b-fcddad078707_b5cf439c",
+        "7a930baa-79f5-47dd-9753-2021de47483f_405d900d",
+        "7c233f26-6eff-4e1c-b56f-226b3ed41393_f1d251a0",
+        "7d87c73f-8e38-4e72-86c6-437aaea17516_bd264da5",
+        "7ec21462-1b97-4cc7-be09-7f1fdb0d3285_d77fa144",
+        "88ae4da0-1c4a-4dfc-b33a-25b4bc5f3643_1ab11d47",
+        "8dbd8b63-2824-467b-b624-1ba80e5d54bb_e9fb8cd1",
+        "90484337-c124-4bc2-8230-31cfd37c8f4d_ce34b40c",
+        "a46e718b-e428-4725-9324-974f1c6d1698_b465d631",
+        "a6754637-496a-48e4-a68b-01a9f3c8265f_24b5ceea",
+        "a8ebb413-f294-4170-836a-0adda979ebf6_f4c591a5",
+        "a9ca9c2d-33a1-46c0-a70a-24ba73e1d0aa_2104a3d5",
+        "af0a7d6a-3942-4f72-bba9-7bd9005bd017_0f8dfb14",
+        "b4754a51-1cac-439b-a5c7-984d2cea0edf_5393de4f",
+        "b4988fb8-bcdb-4b80-adee-0cdccfa8470d_e4f53abd",
+        "b4f1203f-d12c-4763-bdbf-9808ee6646b7_4efd8ade",
+        "ba08a277-062f-4ace-866c-964672481fa4_ca4f12d6",
+        "ba155f80-ac69-4b34-abb6-aec59d448bdf_b50325d2",
+        "bf6941b3-daaf-437e-bb24-ef973af8e347_92425602",
+        "c1cd8dc8-f06b-455f-94f6-e86682ac3069_0f60bf32",
+        "c1ec7918-6ec5-4336-9e29-9d53798ec441_0ec2804c",
+        "c3003d47-e5bf-481b-a9b5-61d0086dd135_411289f1",
+        "c9705bb4-075c-4ee4-920f-ba2916d66cfb_e5d9b505",
+        "cda293bb-f724-4d9a-a383-43f0320054b1_acad8368",
+        "d340705f-0f84-4875-b419-cb86f9f2d81f_b2e66ec2",
+        "d5519b52-8d6e-40e8-b2a8-7eb2fbeac938_7f78758a",
+        "e33af93c-f460-4e5a-b897-7884b9891cdc_9a71f56a",
+        "ea3e430f-b90d-4f90-ab8c-d81b3ef74fe3_4704e04f",
+        "ef4db1eb-9d09-46e2-9a3d-88097e669915_290559ca",
+        "f4411eca-f606-4253-972b-5497ac8f1119_43769d2c",
+        "f608e45c-8e3a-463a-b41c-85f4b5545986_a9db1b07",
+        "fb63c34e-0c28-4a4d-b8f8-59932b5e7875_99bfb5f9",
+        "fd117623-5da8-4c3f-8bf8-c366c7136bbe_fccd18eb"
+      ],
+      "video_count": 76
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/test_manifest.json",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "val",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/train100_clips.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "test",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/train100_clips.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "train",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/train100_clips.csv",
+      "video_ids": [
+        "00fe7c5e-130c-42eb-8e1c-7576e6a647b8_856d344f",
+        "0202b12c-6588-4daa-bf68-1cabdeafe7ec_0074a506",
+        "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+        "04ad6810-0997-4fa6-b81f-315d7a13fa8d_fc1dfe99",
+        "07605b5b-8833-4d1a-90a9-df157289ee2b_bfe8844d",
+        "07b29419-dc37-4557-b1aa-ffb6148fdf7a_56c09236",
+        "07f79287-6fb6-4968-bb96-82f75c335df0_76dede1b",
+        "08ab7980-f017-430f-9fb9-6beafcbe0b15_714280ab",
+        "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+        "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+        "119e4822-8504-4d45-97f3-4ac34e2397cb_c97152d0",
+        "121f73b9-1ffb-4add-ae0e-7872a2f86ce9_6b7fe1e3",
+        "14b731b6-d4d6-48e9-be9a-2c2902f59829_0101e553",
+        "1a324b7e-7330-4c24-8070-86a14ae31faf_230f5988",
+        "1bffaa9e-4f50-4022-a955-26254a71be39_6767101d",
+        "207d4c94-4ce6-4400-b837-e910b715f683_f247cbf3",
+        "23926909-263a-481d-b3b3-609b198d7529_06a54bca",
+        "252753e7-1456-494c-a79d-32a01f3276bd_f4744bc3",
+        "2749b033-58c7-4ec5-b6f8-f9bf0b6853f6_c34f9f42",
+        "27940403-c93b-4b80-ace7-af47ed0b5a0d_61037a95",
+        "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+        "2e627eca-e1ee-4ab8-ac94-67e3bfc87ccc_e91fa066",
+        "2f965662-62f9-4d13-908f-2470f37574ab_efbb4fdd",
+        "35bc46eb-4b1d-4a2b-a7e5-0ff3611b351c_09be9cb9",
+        "3694a20e-6f59-4f7d-9a5f-fe6d592f8b3c_4a4ad914",
+        "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+        "38f24c06-1438-4fbc-ac99-5a4b833b55cd_d88a6d45",
+        "3a018850-0565-4ec9-a95e-49ef392f88ef_46d746d8",
+        "3b6b833b-82ab-44ae-b68f-3cfc5fd1cb71_0ac724b0",
+        "41c4990f-f1cd-46f7-949d-5734a0e9469e_98b5a39b",
+        "49c9df00-0e7d-4a1d-9d66-e44fb1ec60b4_63b6a678",
+        "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+        "4c65562e-682f-49e5-8779-db4885ff9e56_91dc61fc",
+        "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+        "4e5997c0-7d3b-4992-a5b1-44cb19ec3cf7_540a7a76",
+        "4eea02b4-5f03-44d8-9ac6-2df13d500c1a_394ca462",
+        "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "51ddfbbf-530a-4b4c-a0ed-8bc26a6b7551_a773c4ca",
+        "56754ae4-45ba-4c50-8623-c37880c427e8_af03d161",
+        "57867c15-be9b-423a-887b-942e6241469f_92ad0fac",
+        "57af5612-7cf1-49f8-a55f-dbf2ea379b7c_95bb2500",
+        "5946ed36-3247-421d-8ce4-e259af38f359_cd4045b7",
+        "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+        "5d04337b-776c-4547-b2f8-595238351787_af1a80a3",
+        "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+        "630b19b4-f3bf-4058-94aa-d30a93fb73c6_713b5c36",
+        "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+        "63a7db03-baad-454c-bc89-7bba894f523e_5bc5a35a",
+        "64c93f34-69d0-4e79-baed-5f50724869bc_adacab67",
+        "66c4659a-ea45-4877-ab8c-8533f5fece2b_64831758",
+        "68d60c88-932d-408f-8ad9-5475dedd759a_3085a2a2",
+        "6bc7bb1e-f7f7-4ebd-a493-e4a64415bb22_9cb411fb",
+        "6e1e9453-a5c3-411f-8292-722b47a43155_d0e44541",
+        "70992fb6-6e46-4869-b501-4a23091c682b_04a06f28",
+        "74344590-4c20-4b9e-9b9b-fcddad078707_b5cf439c",
+        "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+        "7a930baa-79f5-47dd-9753-2021de47483f_405d900d",
+        "7c233f26-6eff-4e1c-b56f-226b3ed41393_f1d251a0",
+        "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+        "7d87c73f-8e38-4e72-86c6-437aaea17516_bd264da5",
+        "7ec21462-1b97-4cc7-be09-7f1fdb0d3285_d77fa144",
+        "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+        "88ae4da0-1c4a-4dfc-b33a-25b4bc5f3643_1ab11d47",
+        "8dbd8b63-2824-467b-b624-1ba80e5d54bb_e9fb8cd1",
+        "90484337-c124-4bc2-8230-31cfd37c8f4d_ce34b40c",
+        "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+        "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+        "a46e718b-e428-4725-9324-974f1c6d1698_b465d631",
+        "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+        "a6754637-496a-48e4-a68b-01a9f3c8265f_24b5ceea",
+        "a8ebb413-f294-4170-836a-0adda979ebf6_f4c591a5",
+        "a9ca9c2d-33a1-46c0-a70a-24ba73e1d0aa_2104a3d5",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "af0a7d6a-3942-4f72-bba9-7bd9005bd017_0f8dfb14",
+        "b4754a51-1cac-439b-a5c7-984d2cea0edf_5393de4f",
+        "b4988fb8-bcdb-4b80-adee-0cdccfa8470d_e4f53abd",
+        "b4f1203f-d12c-4763-bdbf-9808ee6646b7_4efd8ade",
+        "ba08a277-062f-4ace-866c-964672481fa4_ca4f12d6",
+        "ba155f80-ac69-4b34-abb6-aec59d448bdf_b50325d2",
+        "bf6941b3-daaf-437e-bb24-ef973af8e347_92425602",
+        "c1cd8dc8-f06b-455f-94f6-e86682ac3069_0f60bf32",
+        "c1ec7918-6ec5-4336-9e29-9d53798ec441_0ec2804c",
+        "c3003d47-e5bf-481b-a9b5-61d0086dd135_411289f1",
+        "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+        "c9705bb4-075c-4ee4-920f-ba2916d66cfb_e5d9b505",
+        "cda293bb-f724-4d9a-a383-43f0320054b1_acad8368",
+        "d340705f-0f84-4875-b419-cb86f9f2d81f_b2e66ec2",
+        "d5519b52-8d6e-40e8-b2a8-7eb2fbeac938_7f78758a",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "e33af93c-f460-4e5a-b897-7884b9891cdc_9a71f56a",
+        "ea3e430f-b90d-4f90-ab8c-d81b3ef74fe3_4704e04f",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+        "ef4db1eb-9d09-46e2-9a3d-88097e669915_290559ca",
+        "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+        "f4411eca-f606-4253-972b-5497ac8f1119_43769d2c",
+        "f608e45c-8e3a-463a-b41c-85f4b5545986_a9db1b07",
+        "fb63c34e-0c28-4a4d-b8f8-59932b5e7875_99bfb5f9",
+        "fd117623-5da8-4c3f-8bf8-c366c7136bbe_fccd18eb",
+        "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+      ],
+      "video_count": 100
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/train100_manifest.json",
+      "video_ids": [
+        "00fe7c5e-130c-42eb-8e1c-7576e6a647b8_856d344f",
+        "0202b12c-6588-4daa-bf68-1cabdeafe7ec_0074a506",
+        "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+        "04ad6810-0997-4fa6-b81f-315d7a13fa8d_fc1dfe99",
+        "07605b5b-8833-4d1a-90a9-df157289ee2b_bfe8844d",
+        "07b29419-dc37-4557-b1aa-ffb6148fdf7a_56c09236",
+        "07f79287-6fb6-4968-bb96-82f75c335df0_76dede1b",
+        "08ab7980-f017-430f-9fb9-6beafcbe0b15_714280ab",
+        "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+        "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+        "119e4822-8504-4d45-97f3-4ac34e2397cb_c97152d0",
+        "121f73b9-1ffb-4add-ae0e-7872a2f86ce9_6b7fe1e3",
+        "14b731b6-d4d6-48e9-be9a-2c2902f59829_0101e553",
+        "1a324b7e-7330-4c24-8070-86a14ae31faf_230f5988",
+        "1bffaa9e-4f50-4022-a955-26254a71be39_6767101d",
+        "207d4c94-4ce6-4400-b837-e910b715f683_f247cbf3",
+        "23926909-263a-481d-b3b3-609b198d7529_06a54bca",
+        "252753e7-1456-494c-a79d-32a01f3276bd_f4744bc3",
+        "2749b033-58c7-4ec5-b6f8-f9bf0b6853f6_c34f9f42",
+        "27940403-c93b-4b80-ace7-af47ed0b5a0d_61037a95",
+        "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+        "2e627eca-e1ee-4ab8-ac94-67e3bfc87ccc_e91fa066",
+        "2f965662-62f9-4d13-908f-2470f37574ab_efbb4fdd",
+        "35bc46eb-4b1d-4a2b-a7e5-0ff3611b351c_09be9cb9",
+        "3694a20e-6f59-4f7d-9a5f-fe6d592f8b3c_4a4ad914",
+        "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+        "38f24c06-1438-4fbc-ac99-5a4b833b55cd_d88a6d45",
+        "3a018850-0565-4ec9-a95e-49ef392f88ef_46d746d8",
+        "3b6b833b-82ab-44ae-b68f-3cfc5fd1cb71_0ac724b0",
+        "41c4990f-f1cd-46f7-949d-5734a0e9469e_98b5a39b",
+        "49c9df00-0e7d-4a1d-9d66-e44fb1ec60b4_63b6a678",
+        "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+        "4c65562e-682f-49e5-8779-db4885ff9e56_91dc61fc",
+        "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+        "4e5997c0-7d3b-4992-a5b1-44cb19ec3cf7_540a7a76",
+        "4eea02b4-5f03-44d8-9ac6-2df13d500c1a_394ca462",
+        "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "51ddfbbf-530a-4b4c-a0ed-8bc26a6b7551_a773c4ca",
+        "56754ae4-45ba-4c50-8623-c37880c427e8_af03d161",
+        "57867c15-be9b-423a-887b-942e6241469f_92ad0fac",
+        "57af5612-7cf1-49f8-a55f-dbf2ea379b7c_95bb2500",
+        "5946ed36-3247-421d-8ce4-e259af38f359_cd4045b7",
+        "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+        "5d04337b-776c-4547-b2f8-595238351787_af1a80a3",
+        "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+        "630b19b4-f3bf-4058-94aa-d30a93fb73c6_713b5c36",
+        "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+        "63a7db03-baad-454c-bc89-7bba894f523e_5bc5a35a",
+        "64c93f34-69d0-4e79-baed-5f50724869bc_adacab67",
+        "66c4659a-ea45-4877-ab8c-8533f5fece2b_64831758",
+        "68d60c88-932d-408f-8ad9-5475dedd759a_3085a2a2",
+        "6bc7bb1e-f7f7-4ebd-a493-e4a64415bb22_9cb411fb",
+        "6e1e9453-a5c3-411f-8292-722b47a43155_d0e44541",
+        "70992fb6-6e46-4869-b501-4a23091c682b_04a06f28",
+        "74344590-4c20-4b9e-9b9b-fcddad078707_b5cf439c",
+        "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+        "7a930baa-79f5-47dd-9753-2021de47483f_405d900d",
+        "7c233f26-6eff-4e1c-b56f-226b3ed41393_f1d251a0",
+        "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+        "7d87c73f-8e38-4e72-86c6-437aaea17516_bd264da5",
+        "7ec21462-1b97-4cc7-be09-7f1fdb0d3285_d77fa144",
+        "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+        "88ae4da0-1c4a-4dfc-b33a-25b4bc5f3643_1ab11d47",
+        "8dbd8b63-2824-467b-b624-1ba80e5d54bb_e9fb8cd1",
+        "90484337-c124-4bc2-8230-31cfd37c8f4d_ce34b40c",
+        "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+        "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+        "a46e718b-e428-4725-9324-974f1c6d1698_b465d631",
+        "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+        "a6754637-496a-48e4-a68b-01a9f3c8265f_24b5ceea",
+        "a8ebb413-f294-4170-836a-0adda979ebf6_f4c591a5",
+        "a9ca9c2d-33a1-46c0-a70a-24ba73e1d0aa_2104a3d5",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "af0a7d6a-3942-4f72-bba9-7bd9005bd017_0f8dfb14",
+        "b4754a51-1cac-439b-a5c7-984d2cea0edf_5393de4f",
+        "b4988fb8-bcdb-4b80-adee-0cdccfa8470d_e4f53abd",
+        "b4f1203f-d12c-4763-bdbf-9808ee6646b7_4efd8ade",
+        "ba08a277-062f-4ace-866c-964672481fa4_ca4f12d6",
+        "ba155f80-ac69-4b34-abb6-aec59d448bdf_b50325d2",
+        "bf6941b3-daaf-437e-bb24-ef973af8e347_92425602",
+        "c1cd8dc8-f06b-455f-94f6-e86682ac3069_0f60bf32",
+        "c1ec7918-6ec5-4336-9e29-9d53798ec441_0ec2804c",
+        "c3003d47-e5bf-481b-a9b5-61d0086dd135_411289f1",
+        "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+        "c9705bb4-075c-4ee4-920f-ba2916d66cfb_e5d9b505",
+        "cda293bb-f724-4d9a-a383-43f0320054b1_acad8368",
+        "d340705f-0f84-4875-b419-cb86f9f2d81f_b2e66ec2",
+        "d5519b52-8d6e-40e8-b2a8-7eb2fbeac938_7f78758a",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "e33af93c-f460-4e5a-b897-7884b9891cdc_9a71f56a",
+        "ea3e430f-b90d-4f90-ab8c-d81b3ef74fe3_4704e04f",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+        "ef4db1eb-9d09-46e2-9a3d-88097e669915_290559ca",
+        "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+        "f4411eca-f606-4253-972b-5497ac8f1119_43769d2c",
+        "f608e45c-8e3a-463a-b41c-85f4b5545986_a9db1b07",
+        "fb63c34e-0c28-4a4d-b8f8-59932b5e7875_99bfb5f9",
+        "fd117623-5da8-4c3f-8bf8-c366c7136bbe_fccd18eb",
+        "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+      ],
+      "video_count": 100
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/train_manifest.json",
+      "video_ids": [
+        "00fe7c5e-130c-42eb-8e1c-7576e6a647b8_856d344f",
+        "0202b12c-6588-4daa-bf68-1cabdeafe7ec_0074a506",
+        "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+        "04ad6810-0997-4fa6-b81f-315d7a13fa8d_fc1dfe99",
+        "07605b5b-8833-4d1a-90a9-df157289ee2b_bfe8844d",
+        "07b29419-dc37-4557-b1aa-ffb6148fdf7a_56c09236",
+        "07f79287-6fb6-4968-bb96-82f75c335df0_76dede1b",
+        "08ab7980-f017-430f-9fb9-6beafcbe0b15_714280ab",
+        "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+        "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+        "119e4822-8504-4d45-97f3-4ac34e2397cb_c97152d0",
+        "121f73b9-1ffb-4add-ae0e-7872a2f86ce9_6b7fe1e3",
+        "14b731b6-d4d6-48e9-be9a-2c2902f59829_0101e553",
+        "1a324b7e-7330-4c24-8070-86a14ae31faf_230f5988",
+        "1bffaa9e-4f50-4022-a955-26254a71be39_6767101d",
+        "207d4c94-4ce6-4400-b837-e910b715f683_f247cbf3",
+        "23926909-263a-481d-b3b3-609b198d7529_06a54bca",
+        "252753e7-1456-494c-a79d-32a01f3276bd_f4744bc3",
+        "2749b033-58c7-4ec5-b6f8-f9bf0b6853f6_c34f9f42",
+        "27940403-c93b-4b80-ace7-af47ed0b5a0d_61037a95",
+        "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+        "2e627eca-e1ee-4ab8-ac94-67e3bfc87ccc_e91fa066",
+        "2f965662-62f9-4d13-908f-2470f37574ab_efbb4fdd",
+        "35bc46eb-4b1d-4a2b-a7e5-0ff3611b351c_09be9cb9",
+        "3694a20e-6f59-4f7d-9a5f-fe6d592f8b3c_4a4ad914",
+        "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+        "38f24c06-1438-4fbc-ac99-5a4b833b55cd_d88a6d45",
+        "3a018850-0565-4ec9-a95e-49ef392f88ef_46d746d8",
+        "3b6b833b-82ab-44ae-b68f-3cfc5fd1cb71_0ac724b0",
+        "41c4990f-f1cd-46f7-949d-5734a0e9469e_98b5a39b",
+        "49c9df00-0e7d-4a1d-9d66-e44fb1ec60b4_63b6a678",
+        "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+        "4c65562e-682f-49e5-8779-db4885ff9e56_91dc61fc",
+        "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+        "4e5997c0-7d3b-4992-a5b1-44cb19ec3cf7_540a7a76",
+        "4eea02b4-5f03-44d8-9ac6-2df13d500c1a_394ca462",
+        "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "51ddfbbf-530a-4b4c-a0ed-8bc26a6b7551_a773c4ca",
+        "56754ae4-45ba-4c50-8623-c37880c427e8_af03d161",
+        "57867c15-be9b-423a-887b-942e6241469f_92ad0fac",
+        "57af5612-7cf1-49f8-a55f-dbf2ea379b7c_95bb2500",
+        "5946ed36-3247-421d-8ce4-e259af38f359_cd4045b7",
+        "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+        "5d04337b-776c-4547-b2f8-595238351787_af1a80a3",
+        "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+        "630b19b4-f3bf-4058-94aa-d30a93fb73c6_713b5c36",
+        "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+        "63a7db03-baad-454c-bc89-7bba894f523e_5bc5a35a",
+        "64c93f34-69d0-4e79-baed-5f50724869bc_adacab67",
+        "66c4659a-ea45-4877-ab8c-8533f5fece2b_64831758",
+        "68d60c88-932d-408f-8ad9-5475dedd759a_3085a2a2",
+        "6bc7bb1e-f7f7-4ebd-a493-e4a64415bb22_9cb411fb",
+        "6e1e9453-a5c3-411f-8292-722b47a43155_d0e44541",
+        "70992fb6-6e46-4869-b501-4a23091c682b_04a06f28",
+        "74344590-4c20-4b9e-9b9b-fcddad078707_b5cf439c",
+        "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+        "7a930baa-79f5-47dd-9753-2021de47483f_405d900d",
+        "7c233f26-6eff-4e1c-b56f-226b3ed41393_f1d251a0",
+        "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+        "7d87c73f-8e38-4e72-86c6-437aaea17516_bd264da5",
+        "7ec21462-1b97-4cc7-be09-7f1fdb0d3285_d77fa144",
+        "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+        "88ae4da0-1c4a-4dfc-b33a-25b4bc5f3643_1ab11d47",
+        "8dbd8b63-2824-467b-b624-1ba80e5d54bb_e9fb8cd1",
+        "90484337-c124-4bc2-8230-31cfd37c8f4d_ce34b40c",
+        "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+        "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+        "a46e718b-e428-4725-9324-974f1c6d1698_b465d631",
+        "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+        "a6754637-496a-48e4-a68b-01a9f3c8265f_24b5ceea",
+        "a8ebb413-f294-4170-836a-0adda979ebf6_f4c591a5",
+        "a9ca9c2d-33a1-46c0-a70a-24ba73e1d0aa_2104a3d5",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "af0a7d6a-3942-4f72-bba9-7bd9005bd017_0f8dfb14",
+        "b4754a51-1cac-439b-a5c7-984d2cea0edf_5393de4f",
+        "b4988fb8-bcdb-4b80-adee-0cdccfa8470d_e4f53abd",
+        "b4f1203f-d12c-4763-bdbf-9808ee6646b7_4efd8ade",
+        "ba08a277-062f-4ace-866c-964672481fa4_ca4f12d6",
+        "ba155f80-ac69-4b34-abb6-aec59d448bdf_b50325d2",
+        "bf6941b3-daaf-437e-bb24-ef973af8e347_92425602",
+        "c1cd8dc8-f06b-455f-94f6-e86682ac3069_0f60bf32",
+        "c1ec7918-6ec5-4336-9e29-9d53798ec441_0ec2804c",
+        "c3003d47-e5bf-481b-a9b5-61d0086dd135_411289f1",
+        "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+        "c9705bb4-075c-4ee4-920f-ba2916d66cfb_e5d9b505",
+        "cda293bb-f724-4d9a-a383-43f0320054b1_acad8368",
+        "d340705f-0f84-4875-b419-cb86f9f2d81f_b2e66ec2",
+        "d5519b52-8d6e-40e8-b2a8-7eb2fbeac938_7f78758a",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "e33af93c-f460-4e5a-b897-7884b9891cdc_9a71f56a",
+        "ea3e430f-b90d-4f90-ab8c-d81b3ef74fe3_4704e04f",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+        "ef4db1eb-9d09-46e2-9a3d-88097e669915_290559ca",
+        "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+        "f4411eca-f606-4253-972b-5497ac8f1119_43769d2c",
+        "f608e45c-8e3a-463a-b41c-85f4b5545986_a9db1b07",
+        "fb63c34e-0c28-4a4d-b8f8-59932b5e7875_99bfb5f9",
+        "fd117623-5da8-4c3f-8bf8-c366c7136bbe_fccd18eb",
+        "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+      ],
+      "video_count": 100
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/val_manifest.json",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/metrics/test_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/metrics/train100_vs_train24_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step0000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step0500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step1000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step1500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_condition_projection_scale100_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/metrics/val_per_clip_step2000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_decoder_aware_balanced_loss_v2",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_decoder_aware_balanced_loss_v2/audit/gradient_per_clip_initial.csv",
+      "video_ids": [
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3"
+      ],
+      "video_count": 4
+    },
+    {
+      "experiment": "ultraflash_decoder_aware_balanced_loss_v2",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_decoder_aware_balanced_loss_v2/metrics/val_per_clip_step0000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_decoder_aware_balanced_loss_v2",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_decoder_aware_balanced_loss_v2/metrics/val_per_clip_step0250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_decoder_aware_balanced_loss_v2",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_decoder_aware_balanced_loss_v2/metrics/val_per_clip_step0500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_decoder_aware_full_loss_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_decoder_aware_full_loss_v1/audit/gradient_per_clip_step1000.csv",
+      "video_ids": [
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3"
+      ],
+      "video_count": 4
+    },
+    {
+      "experiment": "ultraflash_decoder_aware_full_loss_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_decoder_aware_full_loss_v1/metrics/val_per_clip_step0000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_decoder_aware_full_loss_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_decoder_aware_full_loss_v1/metrics/val_per_clip_step0500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_decoder_aware_full_loss_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_decoder_aware_full_loss_v1/metrics/val_per_clip_step1000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_dense_teacher_adaptation_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_dense_teacher_adaptation_v1/audit/val_smoke_manifest.json",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/metrics/beta_001_test_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/metrics/beta_0_test_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_000250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_000500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_000750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_001000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_001250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_001500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_001750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_002000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_002250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_002500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_002750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_003000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_003250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_003500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_003750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0/val_per_clip_004000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_000250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_000500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_000750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_001000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_001250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_001500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_001750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_002000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_002250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_002500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_002750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_003000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_003250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_003500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_003750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_001/val_per_clip_004000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0_continue_8000/test_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0_continue_8000/val_latent_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0_continue_8000/val_rgb_latent_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_downstream_aware_upsampler_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_downstream_aware_upsampler_v1/runs/beta_0_continue_8000/val_rgb_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_srdit_lora_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_srdit_lora_v1/metrics/test_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_srdit_lora_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_srdit_lora_v1/metrics/val_latent_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_srdit_lora_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_srdit_lora_v1/metrics/val_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_state_aware_adapter_6depth_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/audit/final_test_split.json",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_state_aware_adapter_6depth_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/audit/split_audit.json",
+      "video_ids": [
+        "00fe7c5e-130c-42eb-8e1c-7576e6a647b8_856d344f",
+        "0202b12c-6588-4daa-bf68-1cabdeafe7ec_0074a506",
+        "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+        "04ad6810-0997-4fa6-b81f-315d7a13fa8d_fc1dfe99",
+        "07605b5b-8833-4d1a-90a9-df157289ee2b_bfe8844d",
+        "07b29419-dc37-4557-b1aa-ffb6148fdf7a_56c09236",
+        "07f79287-6fb6-4968-bb96-82f75c335df0_76dede1b",
+        "08ab7980-f017-430f-9fb9-6beafcbe0b15_714280ab",
+        "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+        "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+        "119e4822-8504-4d45-97f3-4ac34e2397cb_c97152d0",
+        "121f73b9-1ffb-4add-ae0e-7872a2f86ce9_6b7fe1e3",
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "14b731b6-d4d6-48e9-be9a-2c2902f59829_0101e553",
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "1a324b7e-7330-4c24-8070-86a14ae31faf_230f5988",
+        "1bffaa9e-4f50-4022-a955-26254a71be39_6767101d",
+        "207d4c94-4ce6-4400-b837-e910b715f683_f247cbf3",
+        "23926909-263a-481d-b3b3-609b198d7529_06a54bca",
+        "252753e7-1456-494c-a79d-32a01f3276bd_f4744bc3",
+        "2749b033-58c7-4ec5-b6f8-f9bf0b6853f6_c34f9f42",
+        "27940403-c93b-4b80-ace7-af47ed0b5a0d_61037a95",
+        "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+        "2e627eca-e1ee-4ab8-ac94-67e3bfc87ccc_e91fa066",
+        "2f965662-62f9-4d13-908f-2470f37574ab_efbb4fdd",
+        "35bc46eb-4b1d-4a2b-a7e5-0ff3611b351c_09be9cb9",
+        "3694a20e-6f59-4f7d-9a5f-fe6d592f8b3c_4a4ad914",
+        "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+        "38f24c06-1438-4fbc-ac99-5a4b833b55cd_d88a6d45",
+        "3a018850-0565-4ec9-a95e-49ef392f88ef_46d746d8",
+        "3b6b833b-82ab-44ae-b68f-3cfc5fd1cb71_0ac724b0",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "41c4990f-f1cd-46f7-949d-5734a0e9469e_98b5a39b",
+        "49c9df00-0e7d-4a1d-9d66-e44fb1ec60b4_63b6a678",
+        "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+        "4c65562e-682f-49e5-8779-db4885ff9e56_91dc61fc",
+        "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+        "4e5997c0-7d3b-4992-a5b1-44cb19ec3cf7_540a7a76",
+        "4eea02b4-5f03-44d8-9ac6-2df13d500c1a_394ca462",
+        "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "51ddfbbf-530a-4b4c-a0ed-8bc26a6b7551_a773c4ca",
+        "56754ae4-45ba-4c50-8623-c37880c427e8_af03d161",
+        "57867c15-be9b-423a-887b-942e6241469f_92ad0fac",
+        "57af5612-7cf1-49f8-a55f-dbf2ea379b7c_95bb2500",
+        "5946ed36-3247-421d-8ce4-e259af38f359_cd4045b7",
+        "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+        "5d04337b-776c-4547-b2f8-595238351787_af1a80a3",
+        "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+        "630b19b4-f3bf-4058-94aa-d30a93fb73c6_713b5c36",
+        "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+        "63a7db03-baad-454c-bc89-7bba894f523e_5bc5a35a",
+        "64c93f34-69d0-4e79-baed-5f50724869bc_adacab67",
+        "66c4659a-ea45-4877-ab8c-8533f5fece2b_64831758",
+        "68d60c88-932d-408f-8ad9-5475dedd759a_3085a2a2",
+        "6bc7bb1e-f7f7-4ebd-a493-e4a64415bb22_9cb411fb",
+        "6e1e9453-a5c3-411f-8292-722b47a43155_d0e44541",
+        "70992fb6-6e46-4869-b501-4a23091c682b_04a06f28",
+        "74344590-4c20-4b9e-9b9b-fcddad078707_b5cf439c",
+        "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "7a930baa-79f5-47dd-9753-2021de47483f_405d900d",
+        "7c233f26-6eff-4e1c-b56f-226b3ed41393_f1d251a0",
+        "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+        "7d87c73f-8e38-4e72-86c6-437aaea17516_bd264da5",
+        "7ec21462-1b97-4cc7-be09-7f1fdb0d3285_d77fa144",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+        "88ae4da0-1c4a-4dfc-b33a-25b4bc5f3643_1ab11d47",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "8dbd8b63-2824-467b-b624-1ba80e5d54bb_e9fb8cd1",
+        "90484337-c124-4bc2-8230-31cfd37c8f4d_ce34b40c",
+        "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+        "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "a46e718b-e428-4725-9324-974f1c6d1698_b465d631",
+        "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+        "a6754637-496a-48e4-a68b-01a9f3c8265f_24b5ceea",
+        "a8ebb413-f294-4170-836a-0adda979ebf6_f4c591a5",
+        "a9ca9c2d-33a1-46c0-a70a-24ba73e1d0aa_2104a3d5",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "af0a7d6a-3942-4f72-bba9-7bd9005bd017_0f8dfb14",
+        "b4754a51-1cac-439b-a5c7-984d2cea0edf_5393de4f",
+        "b4988fb8-bcdb-4b80-adee-0cdccfa8470d_e4f53abd",
+        "b4f1203f-d12c-4763-bdbf-9808ee6646b7_4efd8ade",
+        "ba08a277-062f-4ace-866c-964672481fa4_ca4f12d6",
+        "ba155f80-ac69-4b34-abb6-aec59d448bdf_b50325d2",
+        "bf6941b3-daaf-437e-bb24-ef973af8e347_92425602",
+        "c1cd8dc8-f06b-455f-94f6-e86682ac3069_0f60bf32",
+        "c1ec7918-6ec5-4336-9e29-9d53798ec441_0ec2804c",
+        "c3003d47-e5bf-481b-a9b5-61d0086dd135_411289f1",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf",
+        "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+        "c9705bb4-075c-4ee4-920f-ba2916d66cfb_e5d9b505",
+        "cda293bb-f724-4d9a-a383-43f0320054b1_acad8368",
+        "d340705f-0f84-4875-b419-cb86f9f2d81f_b2e66ec2",
+        "d5519b52-8d6e-40e8-b2a8-7eb2fbeac938_7f78758a",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "e33af93c-f460-4e5a-b897-7884b9891cdc_9a71f56a",
+        "ea3e430f-b90d-4f90-ab8c-d81b3ef74fe3_4704e04f",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+        "ef4db1eb-9d09-46e2-9a3d-88097e669915_290559ca",
+        "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0",
+        "f4411eca-f606-4253-972b-5497ac8f1119_43769d2c",
+        "f608e45c-8e3a-463a-b41c-85f4b5545986_a9db1b07",
+        "fb63c34e-0c28-4a4d-b8f8-59932b5e7875_99bfb5f9",
+        "fd117623-5da8-4c3f-8bf8-c366c7136bbe_fccd18eb",
+        "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+      ],
+      "video_count": 112
+    },
+    {
+      "experiment": "ultraflash_state_aware_adapter_6depth_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/metrics/adapter_vs_step0_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_state_aware_adapter_6depth_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/metrics/test_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_state_aware_adapter_6depth_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0000_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_state_aware_adapter_6depth_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0250_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_state_aware_adapter_6depth_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0500_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_state_aware_adapter_6depth_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/metrics/val_step0750_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_state_aware_adapter_6depth_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/metrics/val_step1000_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "train",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/audit/clips_used.csv",
+      "video_ids": [
+        "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+        "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+        "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+        "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+        "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+        "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+        "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+        "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+        "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+        "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+        "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+        "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+        "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+        "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+        "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+        "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+        "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+        "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+      ],
+      "video_count": 24
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "val",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/audit/clips_used.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "test",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/audit/clips_used.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "train",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/audit/video_split.json",
+      "video_ids": [
+        "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+        "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+        "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+        "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+        "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+        "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+        "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+        "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+        "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+        "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+        "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+        "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+        "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+        "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+        "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+        "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+        "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+        "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+      ],
+      "video_count": 24
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "val",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/audit/video_split.json",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "test",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/audit/video_split.json",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/candidate_downstream_val_per_clip.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/test_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_000000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_000250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_000500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_000750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_001000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_001250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_001500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_001750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_002000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_002250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_002500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_002750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_003000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_003250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_003500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_003750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_004000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_004250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_004500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_004750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_005000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_005250.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_005500.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_005750.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_upsampler_finetune_v1",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_upsampler_finetune_v1/metrics/val_per_clip_step_006000.csv",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_zero_shot_multivideo",
+      "split": "test",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_zero_shot_multivideo/audit/test_manifest_used.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_zero_shot_multivideo",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_zero_shot_multivideo/metrics/latent_statistics_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_zero_shot_multivideo",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_zero_shot_multivideo/metrics/runtime_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "ultraflash_zero_shot_multivideo",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_zero_shot_multivideo/metrics/ultraflash_per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "wan_hr_latent_roundtrip_test24",
+      "split": "test",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/wan_hr_latent_roundtrip_test24/audit/test_manifest_used.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "wan_hr_latent_roundtrip_test24",
+      "split": "train",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/wan_hr_latent_roundtrip_test24/audit/video_split.json",
+      "video_ids": [
+        "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+        "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+        "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+        "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+        "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+        "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+        "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+        "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+        "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+        "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+        "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+        "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+        "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+        "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+        "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+        "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+        "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+        "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+        "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+        "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+        "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+        "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+        "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+        "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+      ],
+      "video_count": 24
+    },
+    {
+      "experiment": "wan_hr_latent_roundtrip_test24",
+      "split": "val",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/wan_hr_latent_roundtrip_test24/audit/video_split.json",
+      "video_ids": [
+        "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+        "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+        "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+        "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+        "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+        "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "wan_hr_latent_roundtrip_test24",
+      "split": "test",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/wan_hr_latent_roundtrip_test24/audit/video_split.json",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    },
+    {
+      "experiment": "wan_hr_latent_roundtrip_test24",
+      "split": "unspecified",
+      "source_file": "/Huang_group/zyyz/Projects/PS-SR/wan_hr_latent_roundtrip_test24/metrics/per_clip.csv",
+      "video_ids": [
+        "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+        "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+        "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+        "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+        "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+        "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0"
+      ],
+      "video_count": 6
+    }
+  ],
+  "total_unique_previously_used_videos": 112,
+  "all_previously_used_video_ids": [
+    "00fe7c5e-130c-42eb-8e1c-7576e6a647b8_856d344f",
+    "0202b12c-6588-4daa-bf68-1cabdeafe7ec_0074a506",
+    "026aa77c-d036-41b7-a998-83c1911fe2bf_9b97bf85",
+    "04ad6810-0997-4fa6-b81f-315d7a13fa8d_fc1dfe99",
+    "07605b5b-8833-4d1a-90a9-df157289ee2b_bfe8844d",
+    "07b29419-dc37-4557-b1aa-ffb6148fdf7a_56c09236",
+    "07f79287-6fb6-4968-bb96-82f75c335df0_76dede1b",
+    "08ab7980-f017-430f-9fb9-6beafcbe0b15_714280ab",
+    "0ba4e721-74b3-4376-a2bd-3bfb9113d3b8_79a15951",
+    "0f87e220-aac8-4544-ac8c-5d191694fbdd_d2ea7152",
+    "119e4822-8504-4d45-97f3-4ac34e2397cb_c97152d0",
+    "121f73b9-1ffb-4add-ae0e-7872a2f86ce9_6b7fe1e3",
+    "13a0b146-7ed4-40d6-997f-2e2a414fdef1_eedb0167",
+    "14b731b6-d4d6-48e9-be9a-2c2902f59829_0101e553",
+    "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb",
+    "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f",
+    "1a324b7e-7330-4c24-8070-86a14ae31faf_230f5988",
+    "1bffaa9e-4f50-4022-a955-26254a71be39_6767101d",
+    "207d4c94-4ce6-4400-b837-e910b715f683_f247cbf3",
+    "23926909-263a-481d-b3b3-609b198d7529_06a54bca",
+    "252753e7-1456-494c-a79d-32a01f3276bd_f4744bc3",
+    "2749b033-58c7-4ec5-b6f8-f9bf0b6853f6_c34f9f42",
+    "27940403-c93b-4b80-ace7-af47ed0b5a0d_61037a95",
+    "282353b2-b516-4d1e-bb3e-faf8f1096703_913e17a8",
+    "2e627eca-e1ee-4ab8-ac94-67e3bfc87ccc_e91fa066",
+    "2f965662-62f9-4d13-908f-2470f37574ab_efbb4fdd",
+    "35bc46eb-4b1d-4a2b-a7e5-0ff3611b351c_09be9cb9",
+    "3694a20e-6f59-4f7d-9a5f-fe6d592f8b3c_4a4ad914",
+    "38258aa1-af26-4d9c-981c-9e0141075502_3a77b210",
+    "38f24c06-1438-4fbc-ac99-5a4b833b55cd_d88a6d45",
+    "3a018850-0565-4ec9-a95e-49ef392f88ef_46d746d8",
+    "3b6b833b-82ab-44ae-b68f-3cfc5fd1cb71_0ac724b0",
+    "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659",
+    "41c4990f-f1cd-46f7-949d-5734a0e9469e_98b5a39b",
+    "49c9df00-0e7d-4a1d-9d66-e44fb1ec60b4_63b6a678",
+    "4a1e5d4f-caac-4d61-ab46-ba47d1c4842e_0df2017e",
+    "4c65562e-682f-49e5-8779-db4885ff9e56_91dc61fc",
+    "4cc92e4d-9efa-4147-8f17-ea7523c3fdb9_adc5758d",
+    "4e5997c0-7d3b-4992-a5b1-44cb19ec3cf7_540a7a76",
+    "4eea02b4-5f03-44d8-9ac6-2df13d500c1a_394ca462",
+    "4f53ccc0-87df-4bc7-814f-0957bf0383ee_2b3b89dd",
+    "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+    "51ddfbbf-530a-4b4c-a0ed-8bc26a6b7551_a773c4ca",
+    "56754ae4-45ba-4c50-8623-c37880c427e8_af03d161",
+    "57867c15-be9b-423a-887b-942e6241469f_92ad0fac",
+    "57af5612-7cf1-49f8-a55f-dbf2ea379b7c_95bb2500",
+    "5946ed36-3247-421d-8ce4-e259af38f359_cd4045b7",
+    "5984d011-faac-4d5c-a57d-190010388956_e9987ae4",
+    "5d04337b-776c-4547-b2f8-595238351787_af1a80a3",
+    "5d34a400-a05e-438b-ba3b-a7e3c6ee69c9_14742103",
+    "630b19b4-f3bf-4058-94aa-d30a93fb73c6_713b5c36",
+    "635918de-c082-4fb3-86be-299cc919ecaa_1dc77cdf",
+    "63a7db03-baad-454c-bc89-7bba894f523e_5bc5a35a",
+    "64c93f34-69d0-4e79-baed-5f50724869bc_adacab67",
+    "66c4659a-ea45-4877-ab8c-8533f5fece2b_64831758",
+    "68d60c88-932d-408f-8ad9-5475dedd759a_3085a2a2",
+    "6bc7bb1e-f7f7-4ebd-a493-e4a64415bb22_9cb411fb",
+    "6e1e9453-a5c3-411f-8292-722b47a43155_d0e44541",
+    "70992fb6-6e46-4869-b501-4a23091c682b_04a06f28",
+    "74344590-4c20-4b9e-9b9b-fcddad078707_b5cf439c",
+    "790032c8-8e7b-4292-b4dc-8e738ab3f5c5_59617391",
+    "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266",
+    "7a930baa-79f5-47dd-9753-2021de47483f_405d900d",
+    "7c233f26-6eff-4e1c-b56f-226b3ed41393_f1d251a0",
+    "7ce45dd4-d485-42a2-ac9f-8da69f1abd49_4d6cc2f9",
+    "7d87c73f-8e38-4e72-86c6-437aaea17516_bd264da5",
+    "7ec21462-1b97-4cc7-be09-7f1fdb0d3285_d77fa144",
+    "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb",
+    "85f64ff6-8fc8-4546-8375-ae70f629c406_2f89d4c2",
+    "85fe671c-1a7c-42ef-9571-e7e02c57c6a0_9c66306e",
+    "88ae4da0-1c4a-4dfc-b33a-25b4bc5f3643_1ab11d47",
+    "8b182aa4-1170-44e5-9254-037819732538_a7bd0344",
+    "8dbd8b63-2824-467b-b624-1ba80e5d54bb_e9fb8cd1",
+    "90484337-c124-4bc2-8230-31cfd37c8f4d_ce34b40c",
+    "9a6e555e-563a-4750-8af0-9d3051b823ff_5471a33d",
+    "9fbc769a-7a89-46e1-a47d-075d924496f5_ab627836",
+    "a154a0e9-b19e-434c-9813-6ac404e2dcfe_7fac4871",
+    "a46e718b-e428-4725-9324-974f1c6d1698_b465d631",
+    "a55ca53d-145d-4334-adb2-8ce5a3a116f8_e3f7bbf4",
+    "a6754637-496a-48e4-a68b-01a9f3c8265f_24b5ceea",
+    "a8ebb413-f294-4170-836a-0adda979ebf6_f4c591a5",
+    "a9ca9c2d-33a1-46c0-a70a-24ba73e1d0aa_2104a3d5",
+    "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+    "af0a7d6a-3942-4f72-bba9-7bd9005bd017_0f8dfb14",
+    "b4754a51-1cac-439b-a5c7-984d2cea0edf_5393de4f",
+    "b4988fb8-bcdb-4b80-adee-0cdccfa8470d_e4f53abd",
+    "b4f1203f-d12c-4763-bdbf-9808ee6646b7_4efd8ade",
+    "ba08a277-062f-4ace-866c-964672481fa4_ca4f12d6",
+    "ba155f80-ac69-4b34-abb6-aec59d448bdf_b50325d2",
+    "bf6941b3-daaf-437e-bb24-ef973af8e347_92425602",
+    "c1cd8dc8-f06b-455f-94f6-e86682ac3069_0f60bf32",
+    "c1ec7918-6ec5-4336-9e29-9d53798ec441_0ec2804c",
+    "c3003d47-e5bf-481b-a9b5-61d0086dd135_411289f1",
+    "c3d475ee-2257-43e7-9525-48cecf778d5f_71302baf",
+    "c74b76d9-7e20-48af-8058-c60d11d07859_8027c025",
+    "c9705bb4-075c-4ee4-920f-ba2916d66cfb_e5d9b505",
+    "cda293bb-f724-4d9a-a383-43f0320054b1_acad8368",
+    "d340705f-0f84-4875-b419-cb86f9f2d81f_b2e66ec2",
+    "d5519b52-8d6e-40e8-b2a8-7eb2fbeac938_7f78758a",
+    "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6",
+    "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+    "e33af93c-f460-4e5a-b897-7884b9891cdc_9a71f56a",
+    "ea3e430f-b90d-4f90-ab8c-d81b3ef74fe3_4704e04f",
+    "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+    "ef4db1eb-9d09-46e2-9a3d-88097e669915_290559ca",
+    "f1e0dbff-a9e5-466f-91ad-d087f8e660b6_2d50393a",
+    "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0",
+    "f4411eca-f606-4253-972b-5497ac8f1119_43769d2c",
+    "f608e45c-8e3a-463a-b41c-85f4b5545986_a9db1b07",
+    "fb63c34e-0c28-4a4d-b8f8-59932b5e7875_99bfb5f9",
+    "fd117623-5da8-4c3f-8bf8-c366c7136bbe_fccd18eb",
+    "fe75e939-6c04-4921-9d06-5bd9c3b9b1a6_4dda0218"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "selected_step": 1500,
+  "selection_metric": "val_macro_lpips",
+  "selected_val_psnr": 26.554084,
+  "selected_val_ssim": 0.624022,
+  "selected_val_lpips": 0.211276,
+  "selected_val_dists": 0.184572,
+  "selected_val_latent_mse": 0.055172,
+  "selected_val_latent_mae": 0.177618,
+  "test_seen_before_selection": false
+}

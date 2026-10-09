@@ -1,0 +1,50 @@
+{
+  "step8000_baseline": {
+    "psnr": 23.780474,
+    "ssim": 0.647606,
+    "lpips": 0.201375,
+    "dists": 0.153097,
+    "latent_mse": null,
+    "latent_mae": null
+  },
+  "train24_condition_projection": {
+    "psnr": 24.96228310670445,
+    "ssim": 0.6716822292118935,
+    "lpips": 0.17946517571587772,
+    "dists": 0.154872219498251,
+    "latent_mse": 0.056601271498948336,
+    "latent_mae": 0.1786820236593485
+  },
+  "train100_condition_projection": {
+    "psnr": 25.03683322961177,
+    "ssim": 0.6769797356326652,
+    "lpips": 0.18015048638278364,
+    "dists": 0.15577694466885397,
+    "latent_mse": 0.054123218171298504,
+    "latent_mae": 0.17435261545081934
+  },
+  "train24_minus_baseline": {
+    "delta_psnr": 1.1818091067044492,
+    "delta_ssim": 0.024076229211893452,
+    "delta_lpips": -0.021909824284122276,
+    "delta_dists": 0.0017752194982509906,
+    "delta_latent_mse": null,
+    "delta_latent_mae": null
+  },
+  "train100_minus_baseline": {
+    "delta_psnr": 1.2563592296117676,
+    "delta_ssim": 0.02937373563266521,
+    "delta_lpips": -0.021224513617216362,
+    "delta_dists": 0.002679944668853962,
+    "delta_latent_mse": null,
+    "delta_latent_mae": null
+  },
+  "train100_minus_train24": {
+    "delta_psnr": 0.07455012290731844,
+    "delta_ssim": 0.005297506420771758,
+    "delta_lpips": 0.0006853106669059139,
+    "delta_dists": 0.0009047251706029713,
+    "delta_latent_mse": -0.0024780533276498318,
+    "delta_latent_mae": -0.004329408208529145
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "step": 1,
+  "loss": 0.145776629447937,
+  "grad_norm": 0.17476750910282135,
+  "all_frozen_checksums_identical": true,
+  "condition_max_abs_diff": 9.999983012676239e-05,
+  "lpips_frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ]
+}

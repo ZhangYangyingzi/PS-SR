@@ -1,0 +1,826 @@
+{
+  "shapes": [
+    {
+      "stage": "static",
+      "condition": [
+        1,
+        16,
+        2,
+        60,
+        108
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 4,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 9,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 14,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 19,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 24,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 29,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "static",
+      "condition": [
+        1,
+        16,
+        2,
+        60,
+        108
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 4,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 9,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 14,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 19,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 24,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 29,
+      "base_state": [
+        1,
+        3240,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        3240,
+        384
+      ],
+      "static_feature": [
+        1,
+        3240,
+        384
+      ],
+      "query": [
+        1,
+        3240,
+        384
+      ],
+      "context": [
+        1,
+        6480,
+        384
+      ],
+      "fused": [
+        1,
+        3240,
+        384
+      ],
+      "control": [
+        1,
+        3240,
+        384
+      ],
+      "residual": [
+        1,
+        3240,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 4,
+      "base_state": [
+        1,
+        1620,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        1620,
+        384
+      ],
+      "static_feature": [
+        1,
+        1620,
+        384
+      ],
+      "query": [
+        1,
+        1620,
+        384
+      ],
+      "context": [
+        1,
+        3240,
+        384
+      ],
+      "fused": [
+        1,
+        1620,
+        384
+      ],
+      "control": [
+        1,
+        1620,
+        384
+      ],
+      "residual": [
+        1,
+        1620,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 9,
+      "base_state": [
+        1,
+        1620,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        1620,
+        384
+      ],
+      "static_feature": [
+        1,
+        1620,
+        384
+      ],
+      "query": [
+        1,
+        1620,
+        384
+      ],
+      "context": [
+        1,
+        3240,
+        384
+      ],
+      "fused": [
+        1,
+        1620,
+        384
+      ],
+      "control": [
+        1,
+        1620,
+        384
+      ],
+      "residual": [
+        1,
+        1620,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 14,
+      "base_state": [
+        1,
+        1620,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        1620,
+        384
+      ],
+      "static_feature": [
+        1,
+        1620,
+        384
+      ],
+      "query": [
+        1,
+        1620,
+        384
+      ],
+      "context": [
+        1,
+        3240,
+        384
+      ],
+      "fused": [
+        1,
+        1620,
+        384
+      ],
+      "control": [
+        1,
+        1620,
+        384
+      ],
+      "residual": [
+        1,
+        1620,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 19,
+      "base_state": [
+        1,
+        1620,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        1620,
+        384
+      ],
+      "static_feature": [
+        1,
+        1620,
+        384
+      ],
+      "query": [
+        1,
+        1620,
+        384
+      ],
+      "context": [
+        1,
+        3240,
+        384
+      ],
+      "fused": [
+        1,
+        1620,
+        384
+      ],
+      "control": [
+        1,
+        1620,
+        384
+      ],
+      "residual": [
+        1,
+        1620,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 24,
+      "base_state": [
+        1,
+        1620,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        1620,
+        384
+      ],
+      "static_feature": [
+        1,
+        1620,
+        384
+      ],
+      "query": [
+        1,
+        1620,
+        384
+      ],
+      "context": [
+        1,
+        3240,
+        384
+      ],
+      "fused": [
+        1,
+        1620,
+        384
+      ],
+      "control": [
+        1,
+        1620,
+        384
+      ],
+      "residual": [
+        1,
+        1620,
+        1536
+      ]
+    },
+    {
+      "stage": "block",
+      "index": 29,
+      "base_state": [
+        1,
+        1620,
+        1536
+      ],
+      "dynamic_feature": [
+        1,
+        1620,
+        384
+      ],
+      "static_feature": [
+        1,
+        1620,
+        384
+      ],
+      "query": [
+        1,
+        1620,
+        384
+      ],
+      "context": [
+        1,
+        3240,
+        384
+      ],
+      "fused": [
+        1,
+        1620,
+        384
+      ],
+      "control": [
+        1,
+        1620,
+        384
+      ],
+      "residual": [
+        1,
+        1620,
+        1536
+      ]
+    }
+  ]
+}

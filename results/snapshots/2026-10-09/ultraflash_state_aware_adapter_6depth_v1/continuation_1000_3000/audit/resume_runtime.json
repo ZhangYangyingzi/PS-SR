@@ -1,0 +1,10 @@
+{
+  "source_step": 1000,
+  "starting_step": 1001,
+  "optimizer_restored": true,
+  "grad_scaler_restored": false,
+  "grad_scaler_used_in_original": false,
+  "scheduler_restored": false,
+  "scheduler_used_in_original": false,
+  "rng_state_restored": true
+}

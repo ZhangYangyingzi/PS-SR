@@ -1,0 +1,16 @@
+{
+  "clip_id": "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb_clip_0",
+  "seed": 2026,
+  "baseline": "frozen step8000 Upsampler + original SR backbone + Train100 step1500 condition projection",
+  "max_abs_diff_latent": 0.0,
+  "mean_abs_diff_latent": 0.0,
+  "exact_equal": true,
+  "all_connectors_zero": true,
+  "output_shape": [
+    1,
+    16,
+    5,
+    60,
+    108
+  ]
+}

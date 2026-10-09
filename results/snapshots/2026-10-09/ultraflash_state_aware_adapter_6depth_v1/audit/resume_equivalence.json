@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "clip_id": "81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb_clip_0",
+  "metric_diffs": {
+    "psnr": 0.0,
+    "ssim": 0.0,
+    "lpips": 0.0,
+    "dists": 0.0,
+    "latent_mse": 7.450580596923828e-09,
+    "latent_mae": 0.0
+  },
+  "metric_max_diff": 7.450580596923828e-09,
+  "max_abs_rgb_diff": 0.0,
+  "max_abs_latent_diff": null,
+  "mean_abs_latent_diff": null,
+  "latent_cache_available": false,
+  "old_rgb_path": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/outputs/val/step_1000/81944926-cafc-4567-b71e-644faf5a67a3_fe26c0fb/clip_0.mp4",
+  "new_rgb_path": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/continuation_1000_3000/audit/resume_equivalence_clip.mp4"
+}

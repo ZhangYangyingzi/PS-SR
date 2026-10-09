@@ -1,0 +1,86 @@
+{
+  "references": {
+    "adapter_step0": {
+      "psnr": 25.03683322961177,
+      "ssim": 0.6769797356326652,
+      "lpips": 0.18015048638278364,
+      "dists": 0.15577694466885397,
+      "latent_mse": 0.054123218171298504,
+      "latent_mae": 0.17435261545081934
+    },
+    "train24_projection": {
+      "psnr": 24.96228310670445,
+      "ssim": 0.6716822292118935,
+      "lpips": 0.17946517571587772,
+      "dists": 0.154872219498251,
+      "latent_mse": 0.056601271498948336,
+      "latent_mae": 0.1786820236593485
+    },
+    "step8000_baseline": {
+      "psnr": 23.780474,
+      "ssim": 0.647606,
+      "lpips": 0.201375,
+      "dists": 0.153097
+    },
+    "pixel_pssr": {
+      "psnr": 24.98303,
+      "ssim": 0.7368301,
+      "lpips": 0.2105204,
+      "dists": 0.1355408
+    },
+    "bicubic": {
+      "psnr": 31.564989,
+      "ssim": 0.867143,
+      "lpips": 0.214334,
+      "dists": 0.127346
+    }
+  },
+  "adapter_step1000": {
+    "psnr": 25.762775367725425,
+    "ssim": 0.691069831861581,
+    "lpips": 0.1582186287725527,
+    "dists": 0.13573290144695957,
+    "latent_mse": 0.045018764290337764,
+    "latent_mae": 0.15791951896001896
+  },
+  "adapter_step1000_minus_adapter_step0": {
+    "delta_psnr": 0.7259421381136555,
+    "delta_ssim": 0.014090096228915772,
+    "delta_lpips": -0.021931857610230948,
+    "delta_dists": -0.020044043221894403,
+    "delta_latent_mse": -0.00910445388096074,
+    "delta_latent_mae": -0.01643309649080038
+  },
+  "adapter_step1000_minus_train24_projection": {
+    "delta_psnr": 0.8004922610209739,
+    "delta_ssim": 0.01938760264968753,
+    "delta_lpips": -0.021246546943325034,
+    "delta_dists": -0.019139318051291432,
+    "delta_latent_mse": -0.011582507208610572,
+    "delta_latent_mae": -0.020762504699329526
+  },
+  "adapter_step1000_minus_step8000_baseline": {
+    "delta_psnr": 1.982301367725423,
+    "delta_ssim": 0.04346383186158098,
+    "delta_lpips": -0.04315637122744731,
+    "delta_dists": -0.01736409855304044,
+    "delta_latent_mse": null,
+    "delta_latent_mae": null
+  },
+  "adapter_step1000_minus_pixel_pssr": {
+    "delta_psnr": 0.7797453677254254,
+    "delta_ssim": -0.04576026813841905,
+    "delta_lpips": -0.05230177122744731,
+    "delta_dists": 0.00019210144695958054,
+    "delta_latent_mse": null,
+    "delta_latent_mae": null
+  },
+  "adapter_step1000_minus_bicubic": {
+    "delta_psnr": -5.802213632274576,
+    "delta_ssim": -0.176073168138419,
+    "delta_lpips": -0.05611537122744731,
+    "delta_dists": 0.008386901446959583,
+    "delta_latent_mse": null,
+    "delta_latent_mae": null
+  }
+}

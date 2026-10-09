@@ -1,0 +1,13 @@
+{
+  "selected_step": 1000,
+  "selection_metric": "val_macro_lpips",
+  "selected_val_psnr": 26.502139678092117,
+  "selected_val_ssim": 0.6277006338328165,
+  "selected_val_lpips": 0.19657260038908206,
+  "selected_val_dists": 0.16308857003847757,
+  "selected_val_latent_mse": 0.04538227804005146,
+  "selected_val_latent_mae": 0.15914172368745008,
+  "test_used_for_current_checkpoint_selection": false,
+  "test_split_seen_in_prior_experiments": true,
+  "current_step1000_selected_using_test": false
+}

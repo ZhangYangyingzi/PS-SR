@@ -1,0 +1,12 @@
+{
+  "manifest_path": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/train100_clips.csv",
+  "manifest_sha256": "964d24e36986dae08371fdbfeb4d445ecc86438e614dbfc02398b2dafb163d93",
+  "original_manifest_path": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/data/train100_clips.csv",
+  "original_manifest_sha256": "964d24e36986dae08371fdbfeb4d445ecc86438e614dbfc02398b2dafb163d93",
+  "manifest_sha256_matches_original": true,
+  "train_videos": 100,
+  "train_clips": 400,
+  "val_videos": 6,
+  "val_clips": 24,
+  "train_val_overlap": 0
+}

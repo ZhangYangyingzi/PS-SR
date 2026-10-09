@@ -1,0 +1,26 @@
+{
+  "clips": 96,
+  "frames_per_clip": 17,
+  "hr_resolution": [
+    480,
+    864
+  ],
+  "lr_resolution": [
+    160,
+    288
+  ],
+  "lr_latent_shape": [
+    16,
+    5,
+    20,
+    36
+  ],
+  "hr_latent_shape": [
+    16,
+    5,
+    60,
+    108
+  ],
+  "all_cached": true,
+  "preprocessing": "same as latent_sr_v2_multivideo/cache_latents.py"
+}

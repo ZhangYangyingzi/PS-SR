@@ -1,0 +1,26 @@
+{
+  "checkpoint_step": 1500,
+  "before": {
+    "upsampler": "9829f95838901f3dd596fc73dca342f43aff6a0bc4c61d3844096247fa66ce6e",
+    "sr_frozen": "d3c5f5903171c2567783032dbd759c035b5c2874ddd27110ff761ea7261b1244",
+    "latent_projection": "a0e1ab9038ac4dfa7551a872c9a5a3314004846d2042fc95039b83ef4375e572",
+    "wan": "3f2451f235ea0e59b923a0ad337c67d4f3e5b8c437c44c50fb6dc3b96425a14a"
+  },
+  "after": {
+    "upsampler": "9829f95838901f3dd596fc73dca342f43aff6a0bc4c61d3844096247fa66ce6e",
+    "sr_frozen": "d3c5f5903171c2567783032dbd759c035b5c2874ddd27110ff761ea7261b1244",
+    "latent_projection": "a0e1ab9038ac4dfa7551a872c9a5a3314004846d2042fc95039b83ef4375e572",
+    "wan": "3f2451f235ea0e59b923a0ad337c67d4f3e5b8c437c44c50fb6dc3b96425a14a"
+  },
+  "upsampler_unchanged": true,
+  "latent_side_projection_unchanged": true,
+  "attention_unchanged": true,
+  "ffn_unchanged": true,
+  "norm_unchanged": true,
+  "sr_dit_backbone_unchanged": true,
+  "wan_unchanged": true,
+  "condition_side_projection_changed": true,
+  "only_adapted_parameter": "patch_embedding.condition_weight",
+  "trainable_params": 98304,
+  "condition_max_abs_diff": 0.032365620136260986
+}

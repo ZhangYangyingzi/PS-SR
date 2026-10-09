@@ -1,0 +1,13 @@
+{
+  "clip_id": "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f_clip_0",
+  "loss": 0.1272861808538437,
+  "grad_norm_before_clipping": 0.17391544580459595,
+  "loss_finite": true,
+  "grad_finite": true,
+  "parameters_finite": true,
+  "condition_projection_changed": true,
+  "adapter_parameters_changed": true,
+  "base_backbone_unchanged": true,
+  "upsampler_unchanged": true,
+  "wan_unchanged": true
+}

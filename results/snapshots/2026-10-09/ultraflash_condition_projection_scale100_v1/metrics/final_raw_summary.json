@@ -1,0 +1,208 @@
+{
+  "selected_checkpoint": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_condition_projection_scale100_v1/runs/main/step_001500.pt",
+  "selection": {
+    "selected_step": 1500,
+    "selection_metric": "val_macro_lpips",
+    "selected_val_psnr": 26.554084,
+    "selected_val_ssim": 0.624022,
+    "selected_val_lpips": 0.211276,
+    "selected_val_dists": 0.184572,
+    "selected_val_latent_mse": 0.055172,
+    "selected_val_latent_mae": 0.177618,
+    "test_seen_before_selection": false
+  },
+  "val_history": [
+    {
+      "step": 0,
+      "psnr": 25.691580385704373,
+      "ssim": 0.6013244049806279,
+      "lpips": 0.25471674446381776,
+      "dists": 0.19654303438523235,
+      "latent_mse": 0.06748526853819688,
+      "latent_mae": 0.1983770802617073
+    },
+    {
+      "step": 500,
+      "psnr": 26.259307307055977,
+      "ssim": 0.6123989071785519,
+      "lpips": 0.21682089810058766,
+      "dists": 0.18561126189488988,
+      "latent_mse": 0.05949263973161578,
+      "latent_mae": 0.18491360855599245
+    },
+    {
+      "step": 1000,
+      "psnr": 25.939481319280677,
+      "ssim": 0.6138250885810733,
+      "lpips": 0.218904685466459,
+      "dists": 0.1903407873184073,
+      "latent_mse": 0.05831369416167339,
+      "latent_mae": 0.18362953265508017
+    },
+    {
+      "step": 1500,
+      "psnr": 26.554084016323277,
+      "ssim": 0.624021835941407,
+      "lpips": 0.21127596079353606,
+      "dists": 0.18457226805827198,
+      "latent_mse": 0.05517170764505863,
+      "latent_mae": 0.17761762998998165
+    },
+    {
+      "step": 2000,
+      "psnr": 26.56357976926517,
+      "ssim": 0.6232684967136896,
+      "lpips": 0.21264135892338612,
+      "dists": 0.18159006915840448,
+      "latent_mse": 0.054493699533243976,
+      "latent_mae": 0.17625420230130354
+    }
+  ],
+  "train100_test_macro": {
+    "psnr": 25.03683322961177,
+    "ssim": 0.6769797356326652,
+    "lpips": 0.18015048638278364,
+    "dists": 0.15577694466885397,
+    "latent_mse": 0.054123218171298504,
+    "latent_mae": 0.17435261545081934
+  },
+  "train24_test_macro": {
+    "psnr": 24.96228310670445,
+    "ssim": 0.6716822292118935,
+    "lpips": 0.17946517571587772,
+    "dists": 0.154872219498251,
+    "latent_mse": 0.056601271498948336,
+    "latent_mae": 0.1786820236593485
+  },
+  "step8000_baseline_test": {
+    "psnr": 23.780474,
+    "ssim": 0.647606,
+    "lpips": 0.201375,
+    "dists": 0.153097,
+    "latent_mse": null,
+    "latent_mae": null
+  },
+  "macro_deltas": {
+    "train24_minus_baseline": {
+      "delta_psnr": 1.1818091067044492,
+      "delta_ssim": 0.024076229211893452,
+      "delta_lpips": -0.021909824284122276,
+      "delta_dists": 0.0017752194982509906,
+      "delta_latent_mse": null,
+      "delta_latent_mae": null
+    },
+    "train100_minus_baseline": {
+      "delta_psnr": 1.2563592296117676,
+      "delta_ssim": 0.02937373563266521,
+      "delta_lpips": -0.021224513617216362,
+      "delta_dists": 0.002679944668853962,
+      "delta_latent_mse": null,
+      "delta_latent_mae": null
+    },
+    "train100_minus_train24": {
+      "delta_psnr": 0.07455012290731844,
+      "delta_ssim": 0.005297506420771758,
+      "delta_lpips": 0.0006853106669059139,
+      "delta_dists": 0.0009047251706029713,
+      "delta_latent_mse": -0.0024780533276498318,
+      "delta_latent_mae": -0.004329408208529145
+    }
+  },
+  "per_video_improvement_counts": {
+    "psnr_improved": 4,
+    "ssim_improved": 5,
+    "lpips_improved": 2,
+    "dists_improved": 3
+  },
+  "per_clip_improvement_counts": {
+    "psnr_improved": 15,
+    "ssim_improved": 22,
+    "lpips_improved": 12,
+    "dists_improved": 11
+  },
+  "split_audit": {
+    "train_videos": 100,
+    "train_clips": 400,
+    "val_videos": 6,
+    "val_clips": 24,
+    "test_videos": 6,
+    "test_clips": 24,
+    "clips_per_test_video": {
+      "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb": 4,
+      "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f": 4,
+      "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659": 4,
+      "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266": 4,
+      "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6": 4,
+      "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0": 4
+    },
+    "train_test_overlap": 0,
+    "val_test_overlap": 0,
+    "train_val_overlap": 0,
+    "old_test_manifest": "/Huang_group/zyyz/Projects/PS-SR/latent_sr_v2_multivideo/manifests/clips.csv",
+    "test_video_ids_identical_to_train24": true,
+    "test_clip_ids_identical_to_train24": true,
+    "test_clip_ids": [
+      "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0_clip_0",
+      "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0_clip_1",
+      "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0_clip_2",
+      "f3d5c467-e609-499e-af74-9ba869e73b92_04f030e0_clip_3",
+      "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb_clip_0",
+      "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb_clip_1",
+      "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb_clip_2",
+      "160e2e4b-ff1e-43f4-bebe-272ef9e42685_c0715bdb_clip_3",
+      "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f_clip_0",
+      "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f_clip_1",
+      "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f_clip_2",
+      "18aa2178-2d98-42f1-963e-ad5b467f8240_b33ef80f_clip_3",
+      "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659_clip_0",
+      "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659_clip_1",
+      "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659_clip_2",
+      "3e6657ed-3f75-4ac7-a140-cebaf51d2d53_27bba659_clip_3",
+      "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266_clip_0",
+      "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266_clip_1",
+      "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266_clip_2",
+      "7a35ca90-e90d-42d2-a391-8890cfcd669f_eeb41266_clip_3",
+      "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6_clip_0",
+      "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6_clip_1",
+      "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6_clip_2",
+      "dcc72eb4-3226-49ff-b8dc-3aaea968a426_4fbe4dd6_clip_3"
+    ],
+    "duplicate_test_clips": 0
+  },
+  "checkpoint_sha256": "925947d06fd24ad5d0910e7eb4c6851d9627cf83d3ad33c4b66fdac30363c881",
+  "integrity": {
+    "checkpoint_step": 1500,
+    "before": {
+      "upsampler": "9829f95838901f3dd596fc73dca342f43aff6a0bc4c61d3844096247fa66ce6e",
+      "sr_frozen": "d3c5f5903171c2567783032dbd759c035b5c2874ddd27110ff761ea7261b1244",
+      "latent_projection": "a0e1ab9038ac4dfa7551a872c9a5a3314004846d2042fc95039b83ef4375e572",
+      "wan": "3f2451f235ea0e59b923a0ad337c67d4f3e5b8c437c44c50fb6dc3b96425a14a"
+    },
+    "after": {
+      "upsampler": "9829f95838901f3dd596fc73dca342f43aff6a0bc4c61d3844096247fa66ce6e",
+      "sr_frozen": "d3c5f5903171c2567783032dbd759c035b5c2874ddd27110ff761ea7261b1244",
+      "latent_projection": "a0e1ab9038ac4dfa7551a872c9a5a3314004846d2042fc95039b83ef4375e572",
+      "wan": "3f2451f235ea0e59b923a0ad337c67d4f3e5b8c437c44c50fb6dc3b96425a14a"
+    },
+    "upsampler_unchanged": true,
+    "latent_side_projection_unchanged": true,
+    "attention_unchanged": true,
+    "ffn_unchanged": true,
+    "norm_unchanged": true,
+    "sr_dit_backbone_unchanged": true,
+    "wan_unchanged": true,
+    "condition_side_projection_changed": true,
+    "only_adapted_parameter": "patch_embedding.condition_weight",
+    "trainable_params": 98304,
+    "condition_max_abs_diff": 0.032365620136260986
+  },
+  "completion": {
+    "test_clips": 24,
+    "test_videos": 6,
+    "missing_clips": 0,
+    "duplicate_clips": 0,
+    "nan_metrics": 0,
+    "inf_metrics": 0,
+    "aggregation": "clip -> four-clip video mean -> six-video macro"
+  }
+}

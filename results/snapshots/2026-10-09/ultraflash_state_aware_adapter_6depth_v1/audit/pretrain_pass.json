@@ -1,0 +1,5 @@
+{
+  "all_required_audits_passed": true,
+  "smoke_update_reverted": true,
+  "step0_checkpoint": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/runs/step_0000.pt"
+}

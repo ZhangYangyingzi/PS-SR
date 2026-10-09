@@ -1,0 +1,47 @@
+{
+  "1001": {
+    "condition_projection_grad_norm": 0.466866906950026,
+    "state_aware_embedding_grad_norm": 0.023078614144096638,
+    "control_block_grad_norm": 0.03117613485694586,
+    "zero_connector_grad_norm": 0.17720216148847118,
+    "total_trainable_grad_norm": 0.5008691332640703,
+    "nan_count": 0,
+    "inf_count": 0
+  },
+  "1500": {
+    "condition_projection_grad_norm": 0.04716880434295205,
+    "state_aware_embedding_grad_norm": 0.005410287180758404,
+    "control_block_grad_norm": 0.010014812447800737,
+    "zero_connector_grad_norm": 0.05335882869870777,
+    "total_trainable_grad_norm": 0.07212231540227085,
+    "nan_count": 0,
+    "inf_count": 0
+  },
+  "2000": {
+    "condition_projection_grad_norm": 0.2365838314728925,
+    "state_aware_embedding_grad_norm": 0.022132320773758252,
+    "control_block_grad_norm": 0.034310166351086926,
+    "zero_connector_grad_norm": 0.11100486174974382,
+    "total_trainable_grad_norm": 0.2645014476034971,
+    "nan_count": 0,
+    "inf_count": 0
+  },
+  "2500": {
+    "condition_projection_grad_norm": 0.050508892087616886,
+    "state_aware_embedding_grad_norm": 0.0053937760454785474,
+    "control_block_grad_norm": 0.009704574596785798,
+    "zero_connector_grad_norm": 0.04877512432069206,
+    "total_trainable_grad_norm": 0.07108749904554845,
+    "nan_count": 0,
+    "inf_count": 0
+  },
+  "3000": {
+    "condition_projection_grad_norm": 0.05905799337316948,
+    "state_aware_embedding_grad_norm": 0.00931619686697962,
+    "control_block_grad_norm": 0.01847046873219184,
+    "zero_connector_grad_norm": 0.07444467673561657,
+    "total_trainable_grad_norm": 0.09725125302425146,
+    "nan_count": 0,
+    "inf_count": 0
+  }
+}

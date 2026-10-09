@@ -1,0 +1,22 @@
+{
+  "seed": 2026,
+  "split": "train",
+  "samples": [
+    {
+      "video_id": "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f",
+      "clip_id": "519a4dd0-1838-4fc1-a55e-8a611286393e_b4f48c8f_clip_0"
+    },
+    {
+      "video_id": "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97",
+      "clip_id": "dde6485e-dca4-400a-928e-06f6625f7f5e_6d124b97_clip_0"
+    },
+    {
+      "video_id": "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9",
+      "clip_id": "ad342a51-cb49-4ade-b05d-52b3159a8c21_6b260ff9_clip_0"
+    },
+    {
+      "video_id": "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3",
+      "clip_id": "ed4e599c-982b-457f-a0d7-30d8e61aa591_8659e8d3_clip_0"
+    }
+  ]
+}

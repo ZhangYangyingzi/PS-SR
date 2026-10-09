@@ -1,0 +1,6 @@
+{
+  "psnr_improved": 4,
+  "ssim_improved": 5,
+  "lpips_improved": 2,
+  "dists_improved": 3
+}

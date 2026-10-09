@@ -1,0 +1,28 @@
+{
+  "checkpoint_path": "/Huang_group/zyyz/Projects/PS-SR/ultraflash_state_aware_adapter_6depth_v1/runs/step_1000.pt",
+  "checkpoint_size_bytes": 187783354,
+  "checkpoint_sha256": "a6f6d3f009e7c72deed563d95b9aa603ec90d667045a7dcb69ab1758dddd2c2a",
+  "step": 1000,
+  "condition_weight_present": true,
+  "condition_weight_shape": [
+    1536,
+    16,
+    1,
+    2,
+    2
+  ],
+  "adapter_weight_count": 92,
+  "state_aware_embedding_present": true,
+  "state_aware_fusion_present": true,
+  "control_blocks_present": true,
+  "zero_connectors_present": true,
+  "adapter_indices": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+  ],
+  "all_weights_finite": true
+}

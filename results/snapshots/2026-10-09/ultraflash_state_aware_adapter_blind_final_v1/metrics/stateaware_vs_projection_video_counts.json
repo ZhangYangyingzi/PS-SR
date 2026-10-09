@@ -1,0 +1,8 @@
+{
+  "psnr_improved": 20,
+  "ssim_improved": 16,
+  "lpips_improved": 22,
+  "dists_improved": 24,
+  "latent_mse_improved": 24,
+  "latent_mae_improved": 24
+}
